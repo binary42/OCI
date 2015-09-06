@@ -1,0 +1,10 @@
+#
+# $Id: udp.ini-dist 2819 2009-12-18 22:51:41Z stallions $
+#
+
+[transport_impl_1]
+transport_type=udp
+
+# The address from which to send/receive data.
+# The default value is: none.
+local_address=

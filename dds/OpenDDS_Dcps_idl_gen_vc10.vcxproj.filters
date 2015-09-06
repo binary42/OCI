@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Typesupport Files">
+      <UniqueIdentifier>{B7B4DD38-FECA-1BAD-2471-C85400006233}</UniqueIdentifier>
+      <Extensions>idl</Extensions>
+    </Filter>
+    <Filter Include="Idl Files">
+      <UniqueIdentifier>{2990FA4C-FECA-1BAD-2471-C85400006233}</UniqueIdentifier>
+      <Extensions>idl</Extensions>
+    </Filter>
+    <Filter Include="Idl And Typesupport Files">
+      <UniqueIdentifier>{9E235CA7-FECA-1BAD-2471-C85400006233}</UniqueIdentifier>
+      <Extensions>idl</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CorbaSeq\BooleanSeq.idl">
+      <Filter>Typesupport Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CorbaSeq\CharSeq.idl">
+      <Filter>Typesupport Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CorbaSeq\DoubleSeq.idl">
+      <Filter>Typesupport Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CorbaSeq\FloatSeq.idl">
+      <Filter>Typesupport Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CorbaSeq\LongDoubleSeq.idl">
+      <Filter>Typesupport Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CorbaSeq\LongLongSeq.idl">
+      <Filter>Typesupport Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CorbaSeq\LongSeq.idl">
+      <Filter>Typesupport Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CorbaSeq\OctetSeq.idl">
+      <Filter>Typesupport Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CorbaSeq\ShortSeq.idl">
+      <Filter>Typesupport Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CorbaSeq\StringSeq.idl">
+      <Filter>Typesupport Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CorbaSeq\ULongLongSeq.idl">
+      <Filter>Typesupport Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CorbaSeq\ULongSeq.idl">
+      <Filter>Typesupport Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CorbaSeq\UShortSeq.idl">
+      <Filter>Typesupport Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CorbaSeq\WCharSeq.idl">
+      <Filter>Typesupport Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CorbaSeq\WStringSeq.idl">
+      <Filter>Typesupport Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="DdsDcps.idl">
+      <Filter>Idl Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DdsDcpsDomain.idl">
+      <Filter>Idl Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DdsDcpsInfrastructureTypeSupport.idl">
+      <Filter>Idl Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DdsDcpsPublication.idl">
+      <Filter>Idl Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DdsDcpsSubscription.idl">
+      <Filter>Idl Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DdsDcpsSubscriptionExt.idl">
+      <Filter>Idl Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DdsDcpsTopic.idl">
+      <Filter>Idl Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DdsDcpsTypeSupportExt.idl">
+      <Filter>Idl Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="DdsDcpsGuid.idl">
+      <Filter>Idl And Typesupport Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DdsDcpsInfoUtils.idl">
+      <Filter>Idl And Typesupport Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DdsDcpsInfrastructure.idl">
+      <Filter>Idl And Typesupport Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

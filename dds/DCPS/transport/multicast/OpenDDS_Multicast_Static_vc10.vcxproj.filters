@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B1F27843-FECA-1BAD-40B4-D2ECA910A082}</UniqueIdentifier>
+      <Extensions>cpp;cxx;cc;c;C</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{06319535-FECA-1BAD-40B4-D2ECA910A082}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hh</Extensions>
+    </Filter>
+    <Filter Include="Build Files">
+      <UniqueIdentifier>{A1909F1C-FECA-1BAD-40B4-D2ECA910A082}</UniqueIdentifier>
+      <Extensions>mpc;mpb;mwc</Extensions>
+    </Filter>
+    <Filter Include="Inline Files">
+      <UniqueIdentifier>{763028EF-FECA-1BAD-40B4-D2ECA910A082}</UniqueIdentifier>
+      <Extensions>i;ipp;inl</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BestEffortSession.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BestEffortSessionFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Multicast.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MulticastDataLink.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MulticastInst.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MulticastLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MulticastReceiveStrategy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MulticastSendStrategy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MulticastSession.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MulticastSessionFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MulticastTransport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ReliableSession.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ReliableSessionFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BestEffortSession.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BestEffortSessionFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Multicast.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Multicast_Export.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MulticastDataLink.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MulticastDataLink_rch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MulticastInst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MulticastInst_rch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MulticastLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MulticastReceiveStrategy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MulticastReceiveStrategy_rch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MulticastSendStrategy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MulticastSendStrategy_rch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MulticastSession.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MulticastSession_rch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MulticastSessionFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MulticastSessionFactory_rch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MulticastTransport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MulticastTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ReliableSession.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ReliableSessionFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="OpenDDS_Multicast.mpc">
+      <Filter>Build Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="MulticastDataLink.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="MulticastSession.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

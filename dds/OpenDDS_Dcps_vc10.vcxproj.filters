@@ -1,0 +1,1461 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B1F27843-FECA-1BAD-2471-C85400006233}</UniqueIdentifier>
+      <Extensions>cpp;cxx;cc;c;C</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{06319535-FECA-1BAD-2471-C85400006233}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hh</Extensions>
+    </Filter>
+    <Filter Include="Build Files">
+      <UniqueIdentifier>{A1909F1C-FECA-1BAD-2471-C85400006233}</UniqueIdentifier>
+      <Extensions>mpc;mpb;mwc</Extensions>
+    </Filter>
+    <Filter Include="Installdata Files">
+      <UniqueIdentifier>{B0B7506A-FECA-1BAD-2471-C85400006233}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inline Files">
+      <UniqueIdentifier>{763028EF-FECA-1BAD-2471-C85400006233}</UniqueIdentifier>
+      <Extensions>i;ipp;inl</Extensions>
+    </Filter>
+    <Filter Include="Template Files">
+      <UniqueIdentifier>{5635C877-FECA-1BAD-2471-C85400006233}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{502A2050-FECA-1BAD-2471-C85400006233}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;cnt;rtf;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CorbaSeq\BooleanSeqTypeSupportImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CorbaSeq\CharSeqTypeSupportImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CorbaSeq\DoubleSeqTypeSupportImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CorbaSeq\FloatSeqTypeSupportImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CorbaSeq\LongDoubleSeqTypeSupportImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CorbaSeq\LongLongSeqTypeSupportImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CorbaSeq\LongSeqTypeSupportImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CorbaSeq\OctetSeqTypeSupportImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CorbaSeq\ShortSeqTypeSupportImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CorbaSeq\StringSeqTypeSupportImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CorbaSeq\ULongLongSeqTypeSupportImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CorbaSeq\ULongSeqTypeSupportImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CorbaSeq\UShortSeqTypeSupportImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CorbaSeq\WCharSeqTypeSupportImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CorbaSeq\WStringSeqTypeSupportImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\BitPubListenerImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\BuiltInTopicUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\CoherentChangeControl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\ConditionImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\ConfigUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\ContentFilteredTopicImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\DataDurabilityCache.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\DataReaderImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\DataSampleElement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\DataSampleHeader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\DataWriterImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\DCPS_Utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\Discovery.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\DisjointSequence.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\DomainParticipantFactoryImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\DomainParticipantImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\EntityImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\FileSystemStorage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\FilterEvaluator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\GroupRakeData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\GuardCondition.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\GuidBuilder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\GuidConverter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\GuidUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\InstanceDataSampleList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\InstanceHandle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\InstanceState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\Marked_Default_Qos.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\MessageTracker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\MonitorFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\MultiTopicDataReaderBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\MultiTopicImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\OfferedDeadlineWatchdog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\OwnershipManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\PublisherImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\Qos_Helper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\QueryConditionImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\RawDataSample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\ReactorInterceptor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\ReadConditionImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\ReceivedDataElementList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\ReceivedDataStrategy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\Recorder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\RecorderImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\Registered_Data_Types.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\Replayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\ReplayerImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\RepoIdBuilder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\RepoIdConverter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\RepoIdGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\RequestedDeadlineWatchdog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\SendStateDataSampleList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\Serializer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\Service_Participant.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\StatusConditionImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\SubscriberImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\TopicDescriptionImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\TopicImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\Transient_Kludge.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\BuildChainVisitor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\CopyChainVisitor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\DataLink.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\DataLinkCleanupTask.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\DataLinkSet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\DirectPriorityMapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\NetworkAddress.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\NullSynch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\NullSynchStrategy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\PacketRemoveVisitor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\PerConnectionSynch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\PerConnectionSynchStrategy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\PoolSynch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\PoolSynchStrategy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\PriorityKey.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\PriorityMapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\QueueRemoveVisitor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\ReactorSynch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\ReactorSynchStrategy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\ReceivedDataSample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\ReceiveListenerSet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\ReceiveListenerSetMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\RemoveAllVisitor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\RepoIdSet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\RepoIdSetMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\ScheduleOutputHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\SendResponseListener.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\ThreadPerConnectionSendTask.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\ThreadPerConRemoveVisitor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\ThreadSynch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\ThreadSynchResource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\ThreadSynchStrategy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\ThreadSynchWorker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\TransportClient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\TransportConfig.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\TransportControlElement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\TransportCustomizedElement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\TransportDebug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\TransportHeader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\TransportImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\TransportInst.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\TransportQueueElement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\TransportReactorTask.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\TransportReassembly.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\TransportReceiveListener.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\TransportRegistry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\TransportReplacedElement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\TransportRetainedElement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\TransportSendBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\TransportSendControlElement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\TransportSendElement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\TransportSendListener.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\TransportSendStrategy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\TransportStrategy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\TransportType.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\TypeSupportImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\WaitSet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\Watchdog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\WriteDataContainer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\WriterDataSampleList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\WriterInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DdsDcpsC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DdsDcpsDomainC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DdsDcpsGuidC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DdsDcpsGuidTypeSupportImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DdsDcpsInfoUtilsC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DdsDcpsInfoUtilsTypeSupportImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DdsDcpsInfrastructureC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DdsDcpsInfrastructureTypeSupportC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DdsDcpsInfrastructureTypeSupportImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DdsDcpsInfrastructureTypeSupportS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DdsDcpsPublicationC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DdsDcpsSubscriptionC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DdsDcpsSubscriptionExtC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DdsDcpsTopicC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DdsDcpsTypeSupportExtC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CorbaSeq\BooleanSeqTypeSupportImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CorbaSeq\CharSeqTypeSupportImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CorbaSeq\DoubleSeqTypeSupportImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CorbaSeq\FloatSeqTypeSupportImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CorbaSeq\LongDoubleSeqTypeSupportImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CorbaSeq\LongLongSeqTypeSupportImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CorbaSeq\LongSeqTypeSupportImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CorbaSeq\OctetSeqTypeSupportImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CorbaSeq\ShortSeqTypeSupportImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CorbaSeq\StringSeqTypeSupportImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CorbaSeq\ULongLongSeqTypeSupportImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CorbaSeq\ULongSeqTypeSupportImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CorbaSeq\UShortSeqTypeSupportImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CorbaSeq\WCharSeqTypeSupportImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CorbaSeq\WStringSeqTypeSupportImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\AssociationData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\AstNodeWrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\BitPubListenerImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\BuiltInTopicUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\Cached_Allocator_With_Overflow_T.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\CoherentChangeControl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\Comparator_T.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\ConditionImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\ConfigUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\ContentFilteredTopicImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\DataBlockLockPool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\DataCollector_T.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\DataDurabilityCache.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\DataReaderCallbacks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\DataReaderImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\DataSampleElement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\DataSampleHeader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\DataWriterCallbacks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\DataWriterImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\dcps_export.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\DCPS_Utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\debug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\Definitions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\Discovery.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\DisjointSequence.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\DomainParticipantFactoryImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\DomainParticipantImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\DurabilityArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\DurabilityQueue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\Dynamic_Cached_Allocator_With_Overflow_T.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\EntityImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\FeatureDisabledQosCheck.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\FileSystemStorage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\FilterEvaluator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\FilterExpressionGrammar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\GroupRakeData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\GuardCondition.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\GuidBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\GuidConverter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\GuidUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\InstanceDataSampleList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\InstanceHandle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\InstanceState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\LocalObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\Marked_Default_Qos.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\MessageTracker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\MonitorFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\MultiTopicDataReader_T.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\MultiTopicDataReaderBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\MultiTopicImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\OfferedDeadlineWatchdog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\OwnershipManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\PublicationInstance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\PublisherImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\Qos_Helper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\QueryConditionImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\RakeData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\RakeResults_T.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\RawDataSample.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\RcHandle_T.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\RcObject_T.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\ReactorInterceptor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\ReadConditionImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\ReceivedDataElementList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\ReceivedDataStrategy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\Recorder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\RecorderImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\Registered_Data_Types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\Replayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\ReplayerImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\RepoIdBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\RepoIdConverter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\RepoIdGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\RequestedDeadlineWatchdog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\SendStateDataSampleList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\Serializer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\Service_Participant.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\StaticIncludes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\Stats_T.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\StatusConditionImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\SubscriberImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\SubscriptionInstance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\TopicDescriptionImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\TopicExpressionGrammar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\TopicImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\Transient_Kludge.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\transport\framework\BasicQueue_T.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\transport\framework\BasicQueueLink_T.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\transport\framework\BasicQueueLinkAllocator_T.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\transport\framework\BasicQueueLinkChunk_T.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\transport\framework\BasicQueueLinkPool_T.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\transport\framework\BasicQueueVisitor_T.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\transport\framework\BuildChainVisitor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\transport\framework\CopyChainVisitor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\transport\framework\DataLink.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\transport\framework\DataLink_rch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\transport\framework\DataLinkCleanupTask.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\transport\framework\DataLinkSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\transport\framework\DataLinkSet_rch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\transport\framework\DataLinkWatchdog_T.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\transport\framework\DirectPriorityMapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\transport\framework\EntryExit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\transport\framework\NetworkAddress.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\transport\framework\NullSynch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\transport\framework\NullSynchStrategy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\transport\framework\PacketRemoveVisitor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\transport\framework\PerConnectionSynch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\transport\framework\PerConnectionSynchStrategy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\transport\framework\PoolSynch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\transport\framework\PoolSynchStrategy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\transport\framework\PriorityKey.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\transport\framework\PriorityMapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\transport\framework\QueueRemoveVisitor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\transport\framework\QueueTaskBase_T.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\transport\framework\ReactorSynch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\transport\framework\ReactorSynchStrategy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\transport\framework\ReceivedDataSample.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\transport\framework\ReceiveListenerSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\transport\framework\ReceiveListenerSet_rch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\transport\framework\ReceiveListenerSetMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\transport\framework\RemoveAllVisitor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\transport\framework\RepoIdSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\transport\framework\RepoIdSet_rch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\transport\framework\RepoIdSetMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\transport\framework\ScheduleOutputHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\transport\framework\SendResponseListener.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\transport\framework\ThreadPerConnectionSendTask.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\transport\framework\ThreadPerConRemoveVisitor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\transport\framework\ThreadSynch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\transport\framework\ThreadSynchResource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\transport\framework\ThreadSynchStrategy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\transport\framework\ThreadSynchStrategy_rch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\transport\framework\ThreadSynchWorker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\transport\framework\TransportClient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\transport\framework\TransportConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\transport\framework\TransportConfig_rch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\transport\framework\TransportControlElement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\transport\framework\TransportCustomizedElement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\transport\framework\TransportDebug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\transport\framework\TransportDefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\transport\framework\TransportExceptions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\transport\framework\TransportHeader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\transport\framework\TransportImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\transport\framework\TransportImpl_rch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\transport\framework\TransportInst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\transport\framework\TransportInst_rch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\transport\framework\TransportQueueElement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\transport\framework\TransportReactorTask.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\transport\framework\TransportReactorTask_rch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\transport\framework\TransportReassembly.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\transport\framework\TransportReceiveListener.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\transport\framework\TransportReceiveStrategy_rch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\transport\framework\TransportReceiveStrategy_T.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\transport\framework\TransportRegistry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\transport\framework\TransportReplacedElement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\transport\framework\TransportRetainedElement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\transport\framework\TransportSendBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\transport\framework\TransportSendControlElement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\transport\framework\TransportSendElement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\transport\framework\TransportSendListener.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\transport\framework\TransportSendStrategy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\transport\framework\TransportSendStrategy_rch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\transport\framework\TransportStrategy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\transport\framework\TransportStrategy_rch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\transport\framework\TransportType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\transport\framework\TransportType_rch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\TypeSupportImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\Util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\V8TypeConverter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\WaitSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\Watchdog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\WriteDataContainer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\WriterDataSampleList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\WriterInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\yard\yard_base_grammar.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\yard\yard_char_set.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\yard\yard_parser.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\yard\yard_text_grammar.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\yard\yard_tree.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\ZeroCopyAllocator_T.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\ZeroCopyInfoSeq_T.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\ZeroCopySeq_T.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DCPS\ZeroCopySeqBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DdsDcpsC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DdsDcpsDomainC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DdsDcpsDomainS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DdsDcpsGuidC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DdsDcpsGuidS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DdsDcpsGuidTypeSupportImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DdsDcpsInfoUtilsC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DdsDcpsInfoUtilsS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DdsDcpsInfoUtilsTypeSupportImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DdsDcpsInfrastructureC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DdsDcpsInfrastructureS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DdsDcpsInfrastructureTypeSupportC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DdsDcpsInfrastructureTypeSupportImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DdsDcpsInfrastructureTypeSupportS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DdsDcpsPublicationC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DdsDcpsPublicationS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DdsDcpsS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DdsDcpsSubscriptionC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DdsDcpsSubscriptionExtC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DdsDcpsSubscriptionExtS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DdsDcpsSubscriptionS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DdsDcpsTopicC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DdsDcpsTopicS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DdsDcpsTypeSupportExtC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DdsDcpsTypeSupportExtS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="dcps_bits.mpb">
+      <Filter>Build Files</Filter>
+    </None>
+    <None Include="dcps_bits_source.mpb">
+      <Filter>Build Files</Filter>
+    </None>
+    <None Include="DdsDcps.mpc">
+      <Filter>Build Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\AUTHORS">
+      <Filter>Installdata Files</Filter>
+    </None>
+    <None Include="..\bin\PerlDDS">
+      <Filter>Installdata Files</Filter>
+    </None>
+    <None Include="..\LICENSE">
+      <Filter>Installdata Files</Filter>
+    </None>
+    <None Include="..\MPC">
+      <Filter>Installdata Files</Filter>
+    </None>
+    <None Include="..\NEWS">
+      <Filter>Installdata Files</Filter>
+    </None>
+    <None Include="..\README">
+      <Filter>Installdata Files</Filter>
+    </None>
+    <None Include="..\rules.dds.GNU">
+      <Filter>Installdata Files</Filter>
+    </None>
+    <None Include="..\VERSION">
+      <Filter>Installdata Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DCPS\CoherentChangeControl.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="DCPS\DataCollector_T.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="DCPS\DataReaderImpl.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="DCPS\DataSampleElement.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="DCPS\DataSampleHeader.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="DCPS\DisjointSequence.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="DCPS\GuidBuilder.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="DCPS\InstanceDataSampleList.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="DCPS\InstanceState.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="DCPS\Qos_Helper.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="DCPS\ReceivedDataElementList.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="DCPS\RepoIdBuilder.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="DCPS\SendStateDataSampleList.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="DCPS\Serializer.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="DCPS\Service_Participant.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="DCPS\Transient_Kludge.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="DCPS\transport\framework\BuildChainVisitor.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="DCPS\transport\framework\CopyChainVisitor.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="DCPS\transport\framework\DataLink.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="DCPS\transport\framework\DataLinkSet.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="DCPS\transport\framework\DirectPriorityMapper.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="DCPS\transport\framework\NetworkAddress.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="DCPS\transport\framework\NullSynch.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="DCPS\transport\framework\PacketRemoveVisitor.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="DCPS\transport\framework\PerConnectionSynch.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="DCPS\transport\framework\PerConnectionSynchStrategy.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="DCPS\transport\framework\PoolSynch.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="DCPS\transport\framework\PoolSynchStrategy.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="DCPS\transport\framework\PriorityKey.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="DCPS\transport\framework\PriorityMapper.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="DCPS\transport\framework\QueueRemoveVisitor.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="DCPS\transport\framework\ReactorSynch.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="DCPS\transport\framework\ReactorSynchStrategy.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="DCPS\transport\framework\ReceivedDataSample.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="DCPS\transport\framework\ReceiveListenerSet.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="DCPS\transport\framework\ReceiveListenerSetMap.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="DCPS\transport\framework\RemoveAllVisitor.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="DCPS\transport\framework\RepoIdSet.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="DCPS\transport\framework\RepoIdSetMap.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="DCPS\transport\framework\ScheduleOutputHandler.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="DCPS\transport\framework\ThreadPerConRemoveVisitor.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="DCPS\transport\framework\ThreadSynch.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="DCPS\transport\framework\ThreadSynchResource.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="DCPS\transport\framework\ThreadSynchStrategy.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="DCPS\transport\framework\ThreadSynchWorker.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="DCPS\transport\framework\TransportConfig.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="DCPS\transport\framework\TransportControlElement.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="DCPS\transport\framework\TransportCustomizedElement.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="DCPS\transport\framework\TransportHeader.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="DCPS\transport\framework\TransportImpl.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="DCPS\transport\framework\TransportInst.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="DCPS\transport\framework\TransportQueueElement.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="DCPS\transport\framework\TransportReactorTask.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="DCPS\transport\framework\TransportReceiveListener.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="DCPS\transport\framework\TransportReceiveStrategy_T.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="DCPS\transport\framework\TransportRegistry.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="DCPS\transport\framework\TransportReplacedElement.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="DCPS\transport\framework\TransportRetainedElement.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="DCPS\transport\framework\TransportSendBuffer.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="DCPS\transport\framework\TransportSendControlElement.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="DCPS\transport\framework\TransportSendElement.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="DCPS\transport\framework\TransportSendListener.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="DCPS\transport\framework\TransportSendStrategy.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="DCPS\WriterDataSampleList.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="DCPS\ZeroCopyAllocator_T.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="DCPS\ZeroCopyInfoSeq_T.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="DCPS\ZeroCopySeq_T.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="DdsDcpsC.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="DdsDcpsDomainC.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="DdsDcpsGuidC.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="DdsDcpsInfoUtilsC.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="DdsDcpsInfrastructureC.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="DdsDcpsInfrastructureTypeSupportC.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="DdsDcpsPublicationC.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="DdsDcpsSubscriptionC.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="DdsDcpsSubscriptionExtC.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="DdsDcpsTopicC.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="DdsDcpsTypeSupportExtC.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DCPS\DataCollector_T.cpp">
+      <Filter>Template Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\MultiTopicDataReader_T.cpp">
+      <Filter>Template Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\RakeResults_T.cpp">
+      <Filter>Template Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\TransportReceiveStrategy_T.cpp">
+      <Filter>Template Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\ZeroCopyAllocator_T.cpp">
+      <Filter>Template Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\ZeroCopyInfoSeq_T.cpp">
+      <Filter>Template Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DCPS\ZeroCopySeq_T.cpp">
+      <Filter>Template Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="OpenDDS_DCPS.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

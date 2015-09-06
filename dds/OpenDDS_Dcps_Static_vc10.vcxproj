@@ -1,0 +1,1008 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>OpenDDS_Dcps_Static_vc10</ProjectName>
+    <ProjectGuid>{9D90F3A0-FECA-1BAD-2471-C85400006233}</ProjectGuid>
+    <RootNamespace>OpenDDS_Dcps_Static_vc10</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v100</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v100</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Static_Debug\OpenDDS_Dcps_Static_vc10\I386\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">OpenDDS_Dcpssd</TargetName>
+    <LocalDebuggerCommandArguments Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"></LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)</LocalDebuggerWorkingDirectory>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Static_Release\OpenDDS_Dcps_Static_vc10\I386\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">OpenDDS_Dcpss</TargetName>
+    <LocalDebuggerCommandArguments Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"></LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)</LocalDebuggerWorkingDirectory>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">..\lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Static_Debug\OpenDDS_Dcps_Static_vc10\AMD64\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">OpenDDS_Dcpssd</TargetName>
+    <LocalDebuggerCommandArguments Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)</LocalDebuggerWorkingDirectory>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">..\lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Static_Release\OpenDDS_Dcps_Static_vc10\AMD64\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">OpenDDS_Dcpss</TargetName>
+    <LocalDebuggerCommandArguments Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)</LocalDebuggerWorkingDirectory>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(ACE_ROOT);$(TAO_ROOT);..;..\dds;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>ACE_AS_STATIC_LIBS;TAO_AS_STATIC_LIBS;USING_PCH;_DEBUG;WIN32;_WINDOWS;_CRT_NONSTDC_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;NOMINMAX;MPC_LIB_MODIFIER=&quot;sd&quot;;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>DCPS\DdsDcps_pch.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DisableSpecificWarnings>4355;4250;4290;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;NOMINMAX;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>1033</Culture>
+      <AdditionalIncludeDirectories>$(ACE_ROOT);$(TAO_ROOT);..;..\dds;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>..\lib\OpenDDS_Dcpssd.lib</OutputFile>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>.;$(ACE_ROOT)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Lib>
+<!-- "postclean" was made-up by MPC for use by vs_postclean.pl.
+     Check if msbuild has any support for a custom post-cleaning step
+ -->
+<!-- No known equivalent for DeploymentTool in vc10:
+-->
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>$(ACE_ROOT);$(TAO_ROOT);..;..\dds;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>ACE_AS_STATIC_LIBS;TAO_AS_STATIC_LIBS;USING_PCH;NDEBUG;WIN32;_WINDOWS;_CRT_NONSTDC_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;NOMINMAX;MPC_LIB_MODIFIER=&quot;s&quot;;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>DCPS\DdsDcps_pch.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DisableSpecificWarnings>4355;4250;4290;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;NOMINMAX;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>1033</Culture>
+      <AdditionalIncludeDirectories>$(ACE_ROOT);$(TAO_ROOT);..;..\dds;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>..\lib\OpenDDS_Dcpss.lib</OutputFile>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>.;$(ACE_ROOT)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Lib>
+<!-- "postclean" was made-up by MPC for use by vs_postclean.pl.
+     Check if msbuild has any support for a custom post-cleaning step
+ -->
+<!-- No known equivalent for DeploymentTool in vc10:
+-->
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <TargetEnvironment>x64</TargetEnvironment>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(ACE_ROOT);$(TAO_ROOT);..;..\dds;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>ACE_AS_STATIC_LIBS;TAO_AS_STATIC_LIBS;USING_PCH;_DEBUG;WIN32;_WINDOWS;_CRT_NONSTDC_NO_WARNINGS;_AMD64_;_WIN64;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;NOMINMAX;MPC_LIB_MODIFIER=&quot;sd&quot;;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>DCPS\DdsDcps_pch.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DisableSpecificWarnings>4355;4250;4290;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;NOMINMAX;_WIN64;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>1033</Culture>
+      <AdditionalIncludeDirectories>$(ACE_ROOT);$(TAO_ROOT);..;..\dds;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>..\lib\OpenDDS_Dcpssd.lib</OutputFile>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>.;$(ACE_ROOT)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+<!--
+  Though we can set TargetMachine explicitly, VC++
+  can figure it out by project type. We don't need
+  to set it by ourselves.
+-->
+<!--      <TargetMachine>0</TargetMachine>-->
+    </Lib>
+<!-- "postclean" was made-up by MPC for use by vs_postclean.pl.
+     Check if msbuild has any support for a custom post-cleaning step
+ -->
+<!-- No known equivalent for DeploymentTool in vc10:
+-->
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <TargetEnvironment>x64</TargetEnvironment>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>$(ACE_ROOT);$(TAO_ROOT);..;..\dds;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>ACE_AS_STATIC_LIBS;TAO_AS_STATIC_LIBS;USING_PCH;NDEBUG;WIN32;_WINDOWS;_CRT_NONSTDC_NO_WARNINGS;_AMD64_;_WIN64;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;NOMINMAX;MPC_LIB_MODIFIER=&quot;s&quot;;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>DCPS\DdsDcps_pch.h</PrecompiledHeaderFile>
+      <WarningLevel>Level3</WarningLevel>
+      <DisableSpecificWarnings>4355;4250;4290;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;NOMINMAX;_WIN64;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>1033</Culture>
+      <AdditionalIncludeDirectories>$(ACE_ROOT);$(TAO_ROOT);..;..\dds;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>..\lib\OpenDDS_Dcpss.lib</OutputFile>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>.;$(ACE_ROOT)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+<!--
+  Though we can set TargetMachine explicitly, VC++
+  can figure it out by project type. We don't need
+  to set it by ourselves.
+-->
+<!--      <TargetMachine>0</TargetMachine>-->
+    </Lib>
+<!-- "postclean" was made-up by MPC for use by vs_postclean.pl.
+     Check if msbuild has any support for a custom post-cleaning step
+ -->
+<!-- No known equivalent for DeploymentTool in vc10:
+-->
+  </ItemDefinitionGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DCPS\DdsDcps_pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="CorbaSeq\BooleanSeqTypeSupportImpl.cpp">
+    </ClCompile>
+    <ClCompile Include="CorbaSeq\CharSeqTypeSupportImpl.cpp">
+    </ClCompile>
+    <ClCompile Include="CorbaSeq\DoubleSeqTypeSupportImpl.cpp">
+    </ClCompile>
+    <ClCompile Include="CorbaSeq\FloatSeqTypeSupportImpl.cpp">
+    </ClCompile>
+    <ClCompile Include="CorbaSeq\LongDoubleSeqTypeSupportImpl.cpp">
+    </ClCompile>
+    <ClCompile Include="CorbaSeq\LongLongSeqTypeSupportImpl.cpp">
+    </ClCompile>
+    <ClCompile Include="CorbaSeq\LongSeqTypeSupportImpl.cpp">
+    </ClCompile>
+    <ClCompile Include="CorbaSeq\OctetSeqTypeSupportImpl.cpp">
+    </ClCompile>
+    <ClCompile Include="CorbaSeq\ShortSeqTypeSupportImpl.cpp">
+    </ClCompile>
+    <ClCompile Include="CorbaSeq\StringSeqTypeSupportImpl.cpp">
+    </ClCompile>
+    <ClCompile Include="CorbaSeq\ULongLongSeqTypeSupportImpl.cpp">
+    </ClCompile>
+    <ClCompile Include="CorbaSeq\ULongSeqTypeSupportImpl.cpp">
+    </ClCompile>
+    <ClCompile Include="CorbaSeq\UShortSeqTypeSupportImpl.cpp">
+    </ClCompile>
+    <ClCompile Include="CorbaSeq\WCharSeqTypeSupportImpl.cpp">
+    </ClCompile>
+    <ClCompile Include="CorbaSeq\WStringSeqTypeSupportImpl.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\BitPubListenerImpl.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\BuiltInTopicUtils.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\CoherentChangeControl.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\ConditionImpl.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\ConfigUtils.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\ContentFilteredTopicImpl.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\DataDurabilityCache.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\DataReaderImpl.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\DataSampleElement.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\DataSampleHeader.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\DataWriterImpl.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\DCPS_Utils.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\debug.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\Discovery.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\DisjointSequence.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\DomainParticipantFactoryImpl.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\DomainParticipantImpl.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\EntityImpl.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\FileSystemStorage.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\FilterEvaluator.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\GroupRakeData.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\GuardCondition.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\GuidBuilder.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\GuidConverter.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\GuidUtils.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\InstanceDataSampleList.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\InstanceHandle.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\InstanceState.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\Marked_Default_Qos.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\MessageTracker.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\MonitorFactory.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\MultiTopicDataReaderBase.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\MultiTopicImpl.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\OfferedDeadlineWatchdog.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\OwnershipManager.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\PublisherImpl.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\Qos_Helper.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\QueryConditionImpl.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\RawDataSample.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\ReactorInterceptor.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\ReadConditionImpl.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\ReceivedDataElementList.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\ReceivedDataStrategy.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\Recorder.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\RecorderImpl.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\Registered_Data_Types.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\Replayer.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\ReplayerImpl.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\RepoIdBuilder.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\RepoIdConverter.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\RepoIdGenerator.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\RequestedDeadlineWatchdog.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\SendStateDataSampleList.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\Serializer.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\Service_Participant.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\StatusConditionImpl.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\SubscriberImpl.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\TopicDescriptionImpl.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\TopicImpl.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\Transient_Kludge.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\BuildChainVisitor.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\CopyChainVisitor.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\DataLink.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\DataLinkCleanupTask.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\DataLinkSet.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\DirectPriorityMapper.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\NetworkAddress.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\NullSynch.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\NullSynchStrategy.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\PacketRemoveVisitor.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\PerConnectionSynch.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\PerConnectionSynchStrategy.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\PoolSynch.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\PoolSynchStrategy.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\PriorityKey.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\PriorityMapper.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\QueueRemoveVisitor.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\ReactorSynch.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\ReactorSynchStrategy.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\ReceivedDataSample.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\ReceiveListenerSet.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\ReceiveListenerSetMap.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\RemoveAllVisitor.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\RepoIdSet.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\RepoIdSetMap.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\ScheduleOutputHandler.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\SendResponseListener.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\ThreadPerConnectionSendTask.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\ThreadPerConRemoveVisitor.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\ThreadSynch.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\ThreadSynchResource.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\ThreadSynchStrategy.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\ThreadSynchWorker.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\TransportClient.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\TransportConfig.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\TransportControlElement.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\TransportCustomizedElement.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\TransportDebug.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\TransportHeader.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\TransportImpl.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\TransportInst.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\TransportQueueElement.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\TransportReactorTask.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\TransportReassembly.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\TransportReceiveListener.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\TransportRegistry.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\TransportReplacedElement.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\TransportRetainedElement.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\TransportSendBuffer.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\TransportSendControlElement.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\TransportSendElement.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\TransportSendListener.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\TransportSendStrategy.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\TransportStrategy.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\TransportType.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\TypeSupportImpl.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\WaitSet.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\Watchdog.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\WriteDataContainer.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\WriterDataSampleList.cpp">
+    </ClCompile>
+    <ClCompile Include="DCPS\WriterInfo.cpp">
+    </ClCompile>
+    <ClCompile Include="DdsDcpsC.cpp">
+    </ClCompile>
+    <ClCompile Include="DdsDcpsDomainC.cpp">
+    </ClCompile>
+    <ClCompile Include="DdsDcpsGuidC.cpp">
+    </ClCompile>
+    <ClCompile Include="DdsDcpsGuidTypeSupportImpl.cpp">
+    </ClCompile>
+    <ClCompile Include="DdsDcpsInfoUtilsC.cpp">
+    </ClCompile>
+    <ClCompile Include="DdsDcpsInfoUtilsTypeSupportImpl.cpp">
+    </ClCompile>
+    <ClCompile Include="DdsDcpsInfrastructureC.cpp">
+    </ClCompile>
+    <ClCompile Include="DdsDcpsInfrastructureTypeSupportC.cpp">
+    </ClCompile>
+    <ClCompile Include="DdsDcpsInfrastructureTypeSupportImpl.cpp">
+    </ClCompile>
+    <ClCompile Include="DdsDcpsInfrastructureTypeSupportS.cpp">
+    </ClCompile>
+    <ClCompile Include="DdsDcpsPublicationC.cpp">
+    </ClCompile>
+    <ClCompile Include="DdsDcpsSubscriptionC.cpp">
+    </ClCompile>
+    <ClCompile Include="DdsDcpsSubscriptionExtC.cpp">
+    </ClCompile>
+    <ClCompile Include="DdsDcpsTopicC.cpp">
+    </ClCompile>
+    <ClCompile Include="DdsDcpsTypeSupportExtC.cpp">
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DCPS\DataCollector_T.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="DCPS\MultiTopicDataReader_T.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="DCPS\RakeResults_T.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="DCPS\transport\framework\TransportReceiveStrategy_T.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="DCPS\ZeroCopyAllocator_T.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="DCPS\ZeroCopyInfoSeq_T.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="DCPS\ZeroCopySeq_T.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CorbaSeq\BooleanSeqTypeSupportImpl.h" />
+    <ClInclude Include="CorbaSeq\CharSeqTypeSupportImpl.h" />
+    <ClInclude Include="CorbaSeq\DoubleSeqTypeSupportImpl.h" />
+    <ClInclude Include="CorbaSeq\FloatSeqTypeSupportImpl.h" />
+    <ClInclude Include="CorbaSeq\LongDoubleSeqTypeSupportImpl.h" />
+    <ClInclude Include="CorbaSeq\LongLongSeqTypeSupportImpl.h" />
+    <ClInclude Include="CorbaSeq\LongSeqTypeSupportImpl.h" />
+    <ClInclude Include="CorbaSeq\OctetSeqTypeSupportImpl.h" />
+    <ClInclude Include="CorbaSeq\ShortSeqTypeSupportImpl.h" />
+    <ClInclude Include="CorbaSeq\StringSeqTypeSupportImpl.h" />
+    <ClInclude Include="CorbaSeq\ULongLongSeqTypeSupportImpl.h" />
+    <ClInclude Include="CorbaSeq\ULongSeqTypeSupportImpl.h" />
+    <ClInclude Include="CorbaSeq\UShortSeqTypeSupportImpl.h" />
+    <ClInclude Include="CorbaSeq\WCharSeqTypeSupportImpl.h" />
+    <ClInclude Include="CorbaSeq\WStringSeqTypeSupportImpl.h" />
+    <ClInclude Include="DCPS\AssociationData.h" />
+    <ClInclude Include="DCPS\AstNodeWrapper.h" />
+    <ClInclude Include="DCPS\BitPubListenerImpl.h" />
+    <ClInclude Include="DCPS\BuiltInTopicUtils.h" />
+    <ClInclude Include="DCPS\Cached_Allocator_With_Overflow_T.h" />
+    <ClInclude Include="DCPS\CoherentChangeControl.h" />
+    <ClInclude Include="DCPS\Comparator_T.h" />
+    <ClInclude Include="DCPS\ConditionImpl.h" />
+    <ClInclude Include="DCPS\ConfigUtils.h" />
+    <ClInclude Include="DCPS\ContentFilteredTopicImpl.h" />
+    <ClInclude Include="DCPS\DataBlockLockPool.h" />
+    <ClInclude Include="DCPS\DataCollector_T.h" />
+    <ClInclude Include="DCPS\DataDurabilityCache.h" />
+    <ClInclude Include="DCPS\DataReaderCallbacks.h" />
+    <ClInclude Include="DCPS\DataReaderImpl.h" />
+    <ClInclude Include="DCPS\DataSampleElement.h" />
+    <ClInclude Include="DCPS\DataSampleHeader.h" />
+    <ClInclude Include="DCPS\DataWriterCallbacks.h" />
+    <ClInclude Include="DCPS\DataWriterImpl.h" />
+    <ClInclude Include="DCPS\dcps_export.h" />
+    <ClInclude Include="DCPS\DCPS_Utils.h" />
+    <ClInclude Include="DCPS\debug.h" />
+    <ClInclude Include="DCPS\Definitions.h" />
+    <ClInclude Include="DCPS\Discovery.h" />
+    <ClInclude Include="DCPS\DisjointSequence.h" />
+    <ClInclude Include="DCPS\DomainParticipantFactoryImpl.h" />
+    <ClInclude Include="DCPS\DomainParticipantImpl.h" />
+    <ClInclude Include="DCPS\DurabilityArray.h" />
+    <ClInclude Include="DCPS\DurabilityQueue.h" />
+    <ClInclude Include="DCPS\Dynamic_Cached_Allocator_With_Overflow_T.h" />
+    <ClInclude Include="DCPS\EntityImpl.h" />
+    <ClInclude Include="DCPS\FeatureDisabledQosCheck.h" />
+    <ClInclude Include="DCPS\FileSystemStorage.h" />
+    <ClInclude Include="DCPS\FilterEvaluator.h" />
+    <ClInclude Include="DCPS\FilterExpressionGrammar.h" />
+    <ClInclude Include="DCPS\GroupRakeData.h" />
+    <ClInclude Include="DCPS\GuardCondition.h" />
+    <ClInclude Include="DCPS\GuidBuilder.h" />
+    <ClInclude Include="DCPS\GuidConverter.h" />
+    <ClInclude Include="DCPS\GuidUtils.h" />
+    <ClInclude Include="DCPS\InstanceDataSampleList.h" />
+    <ClInclude Include="DCPS\InstanceHandle.h" />
+    <ClInclude Include="DCPS\InstanceState.h" />
+    <ClInclude Include="DCPS\LocalObject.h" />
+    <ClInclude Include="DCPS\Marked_Default_Qos.h" />
+    <ClInclude Include="DCPS\MessageTracker.h" />
+    <ClInclude Include="DCPS\MonitorFactory.h" />
+    <ClInclude Include="DCPS\MultiTopicDataReader_T.h" />
+    <ClInclude Include="DCPS\MultiTopicDataReaderBase.h" />
+    <ClInclude Include="DCPS\MultiTopicImpl.h" />
+    <ClInclude Include="DCPS\OfferedDeadlineWatchdog.h" />
+    <ClInclude Include="DCPS\OwnershipManager.h" />
+    <ClInclude Include="DCPS\PublicationInstance.h" />
+    <ClInclude Include="DCPS\PublisherImpl.h" />
+    <ClInclude Include="DCPS\Qos_Helper.h" />
+    <ClInclude Include="DCPS\QueryConditionImpl.h" />
+    <ClInclude Include="DCPS\RakeData.h" />
+    <ClInclude Include="DCPS\RakeResults_T.h" />
+    <ClInclude Include="DCPS\RawDataSample.h" />
+    <ClInclude Include="DCPS\RcHandle_T.h" />
+    <ClInclude Include="DCPS\RcObject_T.h" />
+    <ClInclude Include="DCPS\ReactorInterceptor.h" />
+    <ClInclude Include="DCPS\ReadConditionImpl.h" />
+    <ClInclude Include="DCPS\ReceivedDataElementList.h" />
+    <ClInclude Include="DCPS\ReceivedDataStrategy.h" />
+    <ClInclude Include="DCPS\Recorder.h" />
+    <ClInclude Include="DCPS\RecorderImpl.h" />
+    <ClInclude Include="DCPS\Registered_Data_Types.h" />
+    <ClInclude Include="DCPS\Replayer.h" />
+    <ClInclude Include="DCPS\ReplayerImpl.h" />
+    <ClInclude Include="DCPS\RepoIdBuilder.h" />
+    <ClInclude Include="DCPS\RepoIdConverter.h" />
+    <ClInclude Include="DCPS\RepoIdGenerator.h" />
+    <ClInclude Include="DCPS\RequestedDeadlineWatchdog.h" />
+    <ClInclude Include="DCPS\SendStateDataSampleList.h" />
+    <ClInclude Include="DCPS\Serializer.h" />
+    <ClInclude Include="DCPS\Service_Participant.h" />
+    <ClInclude Include="DCPS\StaticIncludes.h" />
+    <ClInclude Include="DCPS\Stats_T.h" />
+    <ClInclude Include="DCPS\StatusConditionImpl.h" />
+    <ClInclude Include="DCPS\SubscriberImpl.h" />
+    <ClInclude Include="DCPS\SubscriptionInstance.h" />
+    <ClInclude Include="DCPS\TopicDescriptionImpl.h" />
+    <ClInclude Include="DCPS\TopicExpressionGrammar.h" />
+    <ClInclude Include="DCPS\TopicImpl.h" />
+    <ClInclude Include="DCPS\Transient_Kludge.h" />
+    <ClInclude Include="DCPS\transport\framework\BasicQueue_T.h" />
+    <ClInclude Include="DCPS\transport\framework\BasicQueueLink_T.h" />
+    <ClInclude Include="DCPS\transport\framework\BasicQueueLinkAllocator_T.h" />
+    <ClInclude Include="DCPS\transport\framework\BasicQueueLinkChunk_T.h" />
+    <ClInclude Include="DCPS\transport\framework\BasicQueueLinkPool_T.h" />
+    <ClInclude Include="DCPS\transport\framework\BasicQueueVisitor_T.h" />
+    <ClInclude Include="DCPS\transport\framework\BuildChainVisitor.h" />
+    <ClInclude Include="DCPS\transport\framework\CopyChainVisitor.h" />
+    <ClInclude Include="DCPS\transport\framework\DataLink.h" />
+    <ClInclude Include="DCPS\transport\framework\DataLink_rch.h" />
+    <ClInclude Include="DCPS\transport\framework\DataLinkCleanupTask.h" />
+    <ClInclude Include="DCPS\transport\framework\DataLinkSet.h" />
+    <ClInclude Include="DCPS\transport\framework\DataLinkSet_rch.h" />
+    <ClInclude Include="DCPS\transport\framework\DataLinkWatchdog_T.h" />
+    <ClInclude Include="DCPS\transport\framework\DirectPriorityMapper.h" />
+    <ClInclude Include="DCPS\transport\framework\EntryExit.h" />
+    <ClInclude Include="DCPS\transport\framework\NetworkAddress.h" />
+    <ClInclude Include="DCPS\transport\framework\NullSynch.h" />
+    <ClInclude Include="DCPS\transport\framework\NullSynchStrategy.h" />
+    <ClInclude Include="DCPS\transport\framework\PacketRemoveVisitor.h" />
+    <ClInclude Include="DCPS\transport\framework\PerConnectionSynch.h" />
+    <ClInclude Include="DCPS\transport\framework\PerConnectionSynchStrategy.h" />
+    <ClInclude Include="DCPS\transport\framework\PoolSynch.h" />
+    <ClInclude Include="DCPS\transport\framework\PoolSynchStrategy.h" />
+    <ClInclude Include="DCPS\transport\framework\PriorityKey.h" />
+    <ClInclude Include="DCPS\transport\framework\PriorityMapper.h" />
+    <ClInclude Include="DCPS\transport\framework\QueueRemoveVisitor.h" />
+    <ClInclude Include="DCPS\transport\framework\QueueTaskBase_T.h" />
+    <ClInclude Include="DCPS\transport\framework\ReactorSynch.h" />
+    <ClInclude Include="DCPS\transport\framework\ReactorSynchStrategy.h" />
+    <ClInclude Include="DCPS\transport\framework\ReceivedDataSample.h" />
+    <ClInclude Include="DCPS\transport\framework\ReceiveListenerSet.h" />
+    <ClInclude Include="DCPS\transport\framework\ReceiveListenerSet_rch.h" />
+    <ClInclude Include="DCPS\transport\framework\ReceiveListenerSetMap.h" />
+    <ClInclude Include="DCPS\transport\framework\RemoveAllVisitor.h" />
+    <ClInclude Include="DCPS\transport\framework\RepoIdSet.h" />
+    <ClInclude Include="DCPS\transport\framework\RepoIdSet_rch.h" />
+    <ClInclude Include="DCPS\transport\framework\RepoIdSetMap.h" />
+    <ClInclude Include="DCPS\transport\framework\ScheduleOutputHandler.h" />
+    <ClInclude Include="DCPS\transport\framework\SendResponseListener.h" />
+    <ClInclude Include="DCPS\transport\framework\ThreadPerConnectionSendTask.h" />
+    <ClInclude Include="DCPS\transport\framework\ThreadPerConRemoveVisitor.h" />
+    <ClInclude Include="DCPS\transport\framework\ThreadSynch.h" />
+    <ClInclude Include="DCPS\transport\framework\ThreadSynchResource.h" />
+    <ClInclude Include="DCPS\transport\framework\ThreadSynchStrategy.h" />
+    <ClInclude Include="DCPS\transport\framework\ThreadSynchStrategy_rch.h" />
+    <ClInclude Include="DCPS\transport\framework\ThreadSynchWorker.h" />
+    <ClInclude Include="DCPS\transport\framework\TransportClient.h" />
+    <ClInclude Include="DCPS\transport\framework\TransportConfig.h" />
+    <ClInclude Include="DCPS\transport\framework\TransportConfig_rch.h" />
+    <ClInclude Include="DCPS\transport\framework\TransportControlElement.h" />
+    <ClInclude Include="DCPS\transport\framework\TransportCustomizedElement.h" />
+    <ClInclude Include="DCPS\transport\framework\TransportDebug.h" />
+    <ClInclude Include="DCPS\transport\framework\TransportDefs.h" />
+    <ClInclude Include="DCPS\transport\framework\TransportExceptions.h" />
+    <ClInclude Include="DCPS\transport\framework\TransportHeader.h" />
+    <ClInclude Include="DCPS\transport\framework\TransportImpl.h" />
+    <ClInclude Include="DCPS\transport\framework\TransportImpl_rch.h" />
+    <ClInclude Include="DCPS\transport\framework\TransportInst.h" />
+    <ClInclude Include="DCPS\transport\framework\TransportInst_rch.h" />
+    <ClInclude Include="DCPS\transport\framework\TransportQueueElement.h" />
+    <ClInclude Include="DCPS\transport\framework\TransportReactorTask.h" />
+    <ClInclude Include="DCPS\transport\framework\TransportReactorTask_rch.h" />
+    <ClInclude Include="DCPS\transport\framework\TransportReassembly.h" />
+    <ClInclude Include="DCPS\transport\framework\TransportReceiveListener.h" />
+    <ClInclude Include="DCPS\transport\framework\TransportReceiveStrategy_rch.h" />
+    <ClInclude Include="DCPS\transport\framework\TransportReceiveStrategy_T.h" />
+    <ClInclude Include="DCPS\transport\framework\TransportRegistry.h" />
+    <ClInclude Include="DCPS\transport\framework\TransportReplacedElement.h" />
+    <ClInclude Include="DCPS\transport\framework\TransportRetainedElement.h" />
+    <ClInclude Include="DCPS\transport\framework\TransportSendBuffer.h" />
+    <ClInclude Include="DCPS\transport\framework\TransportSendControlElement.h" />
+    <ClInclude Include="DCPS\transport\framework\TransportSendElement.h" />
+    <ClInclude Include="DCPS\transport\framework\TransportSendListener.h" />
+    <ClInclude Include="DCPS\transport\framework\TransportSendStrategy.h" />
+    <ClInclude Include="DCPS\transport\framework\TransportSendStrategy_rch.h" />
+    <ClInclude Include="DCPS\transport\framework\TransportStrategy.h" />
+    <ClInclude Include="DCPS\transport\framework\TransportStrategy_rch.h" />
+    <ClInclude Include="DCPS\transport\framework\TransportType.h" />
+    <ClInclude Include="DCPS\transport\framework\TransportType_rch.h" />
+    <ClInclude Include="DCPS\TypeSupportImpl.h" />
+    <ClInclude Include="DCPS\Util.h" />
+    <ClInclude Include="DCPS\V8TypeConverter.h" />
+    <ClInclude Include="DCPS\WaitSet.h" />
+    <ClInclude Include="DCPS\Watchdog.h" />
+    <ClInclude Include="DCPS\WriteDataContainer.h" />
+    <ClInclude Include="DCPS\WriterDataSampleList.h" />
+    <ClInclude Include="DCPS\WriterInfo.h" />
+    <ClInclude Include="DCPS\yard\yard_base_grammar.hpp" />
+    <ClInclude Include="DCPS\yard\yard_char_set.hpp" />
+    <ClInclude Include="DCPS\yard\yard_parser.hpp" />
+    <ClInclude Include="DCPS\yard\yard_text_grammar.hpp" />
+    <ClInclude Include="DCPS\yard\yard_tree.hpp" />
+    <ClInclude Include="DCPS\ZeroCopyAllocator_T.h" />
+    <ClInclude Include="DCPS\ZeroCopyInfoSeq_T.h" />
+    <ClInclude Include="DCPS\ZeroCopySeq_T.h" />
+    <ClInclude Include="DCPS\ZeroCopySeqBase.h" />
+    <ClInclude Include="DdsDcpsC.h" />
+    <ClInclude Include="DdsDcpsDomainC.h" />
+    <ClInclude Include="DdsDcpsDomainS.h" />
+    <ClInclude Include="DdsDcpsGuidC.h" />
+    <ClInclude Include="DdsDcpsGuidS.h" />
+    <ClInclude Include="DdsDcpsGuidTypeSupportImpl.h" />
+    <ClInclude Include="DdsDcpsInfoUtilsC.h" />
+    <ClInclude Include="DdsDcpsInfoUtilsS.h" />
+    <ClInclude Include="DdsDcpsInfoUtilsTypeSupportImpl.h" />
+    <ClInclude Include="DdsDcpsInfrastructureC.h" />
+    <ClInclude Include="DdsDcpsInfrastructureS.h" />
+    <ClInclude Include="DdsDcpsInfrastructureTypeSupportC.h" />
+    <ClInclude Include="DdsDcpsInfrastructureTypeSupportImpl.h" />
+    <ClInclude Include="DdsDcpsInfrastructureTypeSupportS.h" />
+    <ClInclude Include="DdsDcpsPublicationC.h" />
+    <ClInclude Include="DdsDcpsPublicationS.h" />
+    <ClInclude Include="DdsDcpsS.h" />
+    <ClInclude Include="DdsDcpsSubscriptionC.h" />
+    <ClInclude Include="DdsDcpsSubscriptionExtC.h" />
+    <ClInclude Include="DdsDcpsSubscriptionExtS.h" />
+    <ClInclude Include="DdsDcpsSubscriptionS.h" />
+    <ClInclude Include="DdsDcpsTopicC.h" />
+    <ClInclude Include="DdsDcpsTopicS.h" />
+    <ClInclude Include="DdsDcpsTypeSupportExtC.h" />
+    <ClInclude Include="DdsDcpsTypeSupportExtS.h" />
+    <ClInclude Include="Version.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="dcps_bits.mpb">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </None>
+    <None Include="dcps_bits_source.mpb">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </None>
+    <None Include="DdsDcps.mpc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\AUTHORS">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </None>
+    <None Include="..\bin\PerlDDS">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </None>
+    <None Include="..\LICENSE">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </None>
+    <None Include="..\MPC">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </None>
+    <None Include="..\NEWS">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </None>
+    <None Include="..\README">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </None>
+    <None Include="..\rules.dds.GNU">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </None>
+    <None Include="..\VERSION">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DCPS\CoherentChangeControl.inl" />
+    <None Include="DCPS\DataCollector_T.inl" />
+    <None Include="DCPS\DataReaderImpl.inl" />
+    <None Include="DCPS\DataSampleElement.inl" />
+    <None Include="DCPS\DataSampleHeader.inl" />
+    <None Include="DCPS\DisjointSequence.inl" />
+    <None Include="DCPS\GuidBuilder.inl" />
+    <None Include="DCPS\InstanceDataSampleList.inl" />
+    <None Include="DCPS\InstanceState.inl" />
+    <None Include="DCPS\Qos_Helper.inl" />
+    <None Include="DCPS\ReceivedDataElementList.inl" />
+    <None Include="DCPS\RepoIdBuilder.inl" />
+    <None Include="DCPS\SendStateDataSampleList.inl" />
+    <None Include="DCPS\Serializer.inl" />
+    <None Include="DCPS\Service_Participant.inl" />
+    <None Include="DCPS\Transient_Kludge.inl" />
+    <None Include="DCPS\transport\framework\BuildChainVisitor.inl" />
+    <None Include="DCPS\transport\framework\CopyChainVisitor.inl" />
+    <None Include="DCPS\transport\framework\DataLink.inl" />
+    <None Include="DCPS\transport\framework\DataLinkSet.inl" />
+    <None Include="DCPS\transport\framework\DirectPriorityMapper.inl" />
+    <None Include="DCPS\transport\framework\NetworkAddress.inl" />
+    <None Include="DCPS\transport\framework\NullSynch.inl" />
+    <None Include="DCPS\transport\framework\PacketRemoveVisitor.inl" />
+    <None Include="DCPS\transport\framework\PerConnectionSynch.inl" />
+    <None Include="DCPS\transport\framework\PerConnectionSynchStrategy.inl" />
+    <None Include="DCPS\transport\framework\PoolSynch.inl" />
+    <None Include="DCPS\transport\framework\PoolSynchStrategy.inl" />
+    <None Include="DCPS\transport\framework\PriorityKey.inl" />
+    <None Include="DCPS\transport\framework\PriorityMapper.inl" />
+    <None Include="DCPS\transport\framework\QueueRemoveVisitor.inl" />
+    <None Include="DCPS\transport\framework\ReactorSynch.inl" />
+    <None Include="DCPS\transport\framework\ReactorSynchStrategy.inl" />
+    <None Include="DCPS\transport\framework\ReceivedDataSample.inl" />
+    <None Include="DCPS\transport\framework\ReceiveListenerSet.inl" />
+    <None Include="DCPS\transport\framework\ReceiveListenerSetMap.inl" />
+    <None Include="DCPS\transport\framework\RemoveAllVisitor.inl" />
+    <None Include="DCPS\transport\framework\RepoIdSet.inl" />
+    <None Include="DCPS\transport\framework\RepoIdSetMap.inl" />
+    <None Include="DCPS\transport\framework\ScheduleOutputHandler.inl" />
+    <None Include="DCPS\transport\framework\ThreadPerConRemoveVisitor.inl" />
+    <None Include="DCPS\transport\framework\ThreadSynch.inl" />
+    <None Include="DCPS\transport\framework\ThreadSynchResource.inl" />
+    <None Include="DCPS\transport\framework\ThreadSynchStrategy.inl" />
+    <None Include="DCPS\transport\framework\ThreadSynchWorker.inl" />
+    <None Include="DCPS\transport\framework\TransportConfig.inl" />
+    <None Include="DCPS\transport\framework\TransportControlElement.inl" />
+    <None Include="DCPS\transport\framework\TransportCustomizedElement.inl" />
+    <None Include="DCPS\transport\framework\TransportHeader.inl" />
+    <None Include="DCPS\transport\framework\TransportImpl.inl" />
+    <None Include="DCPS\transport\framework\TransportInst.inl" />
+    <None Include="DCPS\transport\framework\TransportQueueElement.inl" />
+    <None Include="DCPS\transport\framework\TransportReactorTask.inl" />
+    <None Include="DCPS\transport\framework\TransportReceiveListener.inl" />
+    <None Include="DCPS\transport\framework\TransportReceiveStrategy_T.inl" />
+    <None Include="DCPS\transport\framework\TransportRegistry.inl" />
+    <None Include="DCPS\transport\framework\TransportReplacedElement.inl" />
+    <None Include="DCPS\transport\framework\TransportRetainedElement.inl" />
+    <None Include="DCPS\transport\framework\TransportSendBuffer.inl" />
+    <None Include="DCPS\transport\framework\TransportSendControlElement.inl" />
+    <None Include="DCPS\transport\framework\TransportSendElement.inl" />
+    <None Include="DCPS\transport\framework\TransportSendListener.inl" />
+    <None Include="DCPS\transport\framework\TransportSendStrategy.inl" />
+    <None Include="DCPS\WriterDataSampleList.inl" />
+    <None Include="DCPS\ZeroCopyAllocator_T.inl" />
+    <None Include="DCPS\ZeroCopyInfoSeq_T.inl" />
+    <None Include="DCPS\ZeroCopySeq_T.inl" />
+    <None Include="DdsDcpsC.inl" />
+    <None Include="DdsDcpsDomainC.inl" />
+    <None Include="DdsDcpsGuidC.inl" />
+    <None Include="DdsDcpsInfoUtilsC.inl" />
+    <None Include="DdsDcpsInfrastructureC.inl" />
+    <None Include="DdsDcpsInfrastructureTypeSupportC.inl" />
+    <None Include="DdsDcpsPublicationC.inl" />
+    <None Include="DdsDcpsSubscriptionC.inl" />
+    <None Include="DdsDcpsSubscriptionExtC.inl" />
+    <None Include="DdsDcpsTopicC.inl" />
+    <None Include="DdsDcpsTypeSupportExtC.inl" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

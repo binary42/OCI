@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B1F27843-FECA-1BAD-5371-8A64657840E3}</UniqueIdentifier>
+      <Extensions>cpp;cxx;cc;c;C</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{06319535-FECA-1BAD-5371-8A64657840E3}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hh</Extensions>
+    </Filter>
+    <Filter Include="Build Files">
+      <UniqueIdentifier>{A1909F1C-FECA-1BAD-5371-8A64657840E3}</UniqueIdentifier>
+      <Extensions>mpc;mpb;mwc</Extensions>
+    </Filter>
+    <Filter Include="Idl Files">
+      <UniqueIdentifier>{2990FA4C-FECA-1BAD-5371-8A64657840E3}</UniqueIdentifier>
+      <Extensions>idl</Extensions>
+    </Filter>
+    <Filter Include="Idl And Typesupport Files">
+      <UniqueIdentifier>{9E235CA7-FECA-1BAD-5371-8A64657840E3}</UniqueIdentifier>
+      <Extensions>idl</Extensions>
+    </Filter>
+    <Filter Include="Inline Files">
+      <UniqueIdentifier>{763028EF-FECA-1BAD-5371-8A64657840E3}</UniqueIdentifier>
+      <Extensions>i;ipp;inl</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GuidGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="md5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParameterListConverter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RtpsBaseMessageTypesC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RtpsBaseMessageTypesS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RtpsBaseMessageTypesTypeSupportC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RtpsBaseMessageTypesTypeSupportImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RtpsBaseMessageTypesTypeSupportS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RtpsDiscovery.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RtpsMessageTypesC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RtpsMessageTypesS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RtpsMessageTypesTypeSupportC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RtpsMessageTypesTypeSupportImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RtpsMessageTypesTypeSupportS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sedp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Spdp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BaseMessageTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseMessageUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GuidGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="md5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParameterListConverter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rtps_export.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RtpsBaseMessageTypesC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RtpsBaseMessageTypesS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RtpsBaseMessageTypesTypeSupportC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RtpsBaseMessageTypesTypeSupportImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RtpsBaseMessageTypesTypeSupportS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RtpsDiscovery.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RtpsMessageTypesC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RtpsMessageTypesS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RtpsMessageTypesTypeSupportC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RtpsMessageTypesTypeSupportImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RtpsMessageTypesTypeSupportS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sedp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Spdp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="rtps.mpc">
+      <Filter>Build Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="RtpsBaseMessageTypesTypeSupport.idl">
+      <Filter>Idl Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="RtpsMessageTypesTypeSupport.idl">
+      <Filter>Idl Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="RtpsBaseMessageTypes.idl">
+      <Filter>Idl And Typesupport Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="RtpsMessageTypes.idl">
+      <Filter>Idl And Typesupport Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="RtpsBaseMessageTypesC.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="RtpsBaseMessageTypesS.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="RtpsBaseMessageTypesTypeSupportC.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="RtpsBaseMessageTypesTypeSupportS.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="RtpsMessageTypesC.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="RtpsMessageTypesS.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="RtpsMessageTypesTypeSupportC.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="RtpsMessageTypesTypeSupportS.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

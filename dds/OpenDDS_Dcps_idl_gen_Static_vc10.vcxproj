@@ -1,0 +1,744 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>OpenDDS_Dcps_idl_gen_Static_vc10</ProjectName>
+    <ProjectGuid>{0CAB6C89-FECA-1BAD-2471-C85400006233}</ProjectGuid>
+    <RootNamespace>OpenDDS_Dcps_idl_gen_Static_vc10</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v100</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v100</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Static_Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Static_Debug\OpenDDS_Dcps_idl_gen_Static_vc10\I386\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"></TargetName>
+    <LocalDebuggerCommandArguments Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"></LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)</LocalDebuggerWorkingDirectory>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Static_Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Static_Release\OpenDDS_Dcps_idl_gen_Static_vc10\I386\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"></TargetName>
+    <LocalDebuggerCommandArguments Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"></LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)</LocalDebuggerWorkingDirectory>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Static_Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Static_Debug\OpenDDS_Dcps_idl_gen_Static_vc10\AMD64\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></TargetName>
+    <LocalDebuggerCommandArguments Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)</LocalDebuggerWorkingDirectory>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Static_Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Static_Release\OpenDDS_Dcps_idl_gen_Static_vc10\AMD64\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></TargetName>
+    <LocalDebuggerCommandArguments Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)</LocalDebuggerWorkingDirectory>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;WIN32;_WINDOWS;_CRT_NONSTDC_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>1033</Culture>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>.;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>/noentry %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+<!-- "postclean" was made-up by MPC for use by vs_postclean.pl.
+     Check if msbuild has any support for a custom post-cleaning step
+ -->
+<!-- No known equivalent for DeploymentTool in vc10:
+-->
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;WIN32;_WINDOWS;_CRT_NONSTDC_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>1033</Culture>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>.;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <AdditionalOptions>/noentry %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+<!-- "postclean" was made-up by MPC for use by vs_postclean.pl.
+     Check if msbuild has any support for a custom post-cleaning step
+ -->
+<!-- No known equivalent for DeploymentTool in vc10:
+-->
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <TargetEnvironment>x64</TargetEnvironment>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;WIN32;_WINDOWS;_CRT_NONSTDC_NO_WARNINGS;_AMD64_;_WIN64;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;_WIN64;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>1033</Culture>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>.;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+<!--
+  Though we can set TargetMachine explicitly, VC++
+  can figure it out by project type. We don't need
+  to set it by ourselves.
+-->
+<!--      <TargetMachine>0</TargetMachine>-->
+      <AdditionalOptions>/noentry /machine:AMD64 %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+<!-- "postclean" was made-up by MPC for use by vs_postclean.pl.
+     Check if msbuild has any support for a custom post-cleaning step
+ -->
+<!-- No known equivalent for DeploymentTool in vc10:
+-->
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <TargetEnvironment>x64</TargetEnvironment>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;WIN32;_WINDOWS;_CRT_NONSTDC_NO_WARNINGS;_AMD64_;_WIN64;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;_WIN64;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>1033</Culture>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>.;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+<!--
+  Though we can set TargetMachine explicitly, VC++
+  can figure it out by project type. We don't need
+  to set it by ourselves.
+-->
+<!--      <TargetMachine>0</TargetMachine>-->
+      <AdditionalOptions>/noentry /machine:AMD64 %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+<!-- "postclean" was made-up by MPC for use by vs_postclean.pl.
+     Check if msbuild has any support for a custom post-cleaning step
+ -->
+<!-- No known equivalent for DeploymentTool in vc10:
+-->
+  </ItemDefinitionGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CorbaSeq\BooleanSeq.idl">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\BooleanSeq.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Invoking "..\bin\opendds_idl on CorbaSeq\BooleanSeq.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CorbaSeq\BooleanSeqTypeSupportImpl.cpp;CorbaSeq\BooleanSeqTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\BooleanSeq.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Invoking "..\bin\opendds_idl on CorbaSeq\BooleanSeq.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CorbaSeq\BooleanSeqTypeSupportImpl.cpp;CorbaSeq\BooleanSeqTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\BooleanSeq.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Invoking "..\bin\opendds_idl on CorbaSeq\BooleanSeq.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CorbaSeq\BooleanSeqTypeSupportImpl.cpp;CorbaSeq\BooleanSeqTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\BooleanSeq.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Invoking "..\bin\opendds_idl on CorbaSeq\BooleanSeq.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CorbaSeq\BooleanSeqTypeSupportImpl.cpp;CorbaSeq\BooleanSeqTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt</AdditionalInputs>
+    </CustomBuild>
+    <CustomBuild Include="CorbaSeq\CharSeq.idl">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\CharSeq.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Invoking "..\bin\opendds_idl on CorbaSeq\CharSeq.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CorbaSeq\CharSeqTypeSupportImpl.cpp;CorbaSeq\CharSeqTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\CharSeq.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Invoking "..\bin\opendds_idl on CorbaSeq\CharSeq.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CorbaSeq\CharSeqTypeSupportImpl.cpp;CorbaSeq\CharSeqTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\CharSeq.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Invoking "..\bin\opendds_idl on CorbaSeq\CharSeq.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CorbaSeq\CharSeqTypeSupportImpl.cpp;CorbaSeq\CharSeqTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\CharSeq.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Invoking "..\bin\opendds_idl on CorbaSeq\CharSeq.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CorbaSeq\CharSeqTypeSupportImpl.cpp;CorbaSeq\CharSeqTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt</AdditionalInputs>
+    </CustomBuild>
+    <CustomBuild Include="CorbaSeq\DoubleSeq.idl">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\DoubleSeq.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Invoking "..\bin\opendds_idl on CorbaSeq\DoubleSeq.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CorbaSeq\DoubleSeqTypeSupportImpl.cpp;CorbaSeq\DoubleSeqTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\DoubleSeq.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Invoking "..\bin\opendds_idl on CorbaSeq\DoubleSeq.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CorbaSeq\DoubleSeqTypeSupportImpl.cpp;CorbaSeq\DoubleSeqTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\DoubleSeq.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Invoking "..\bin\opendds_idl on CorbaSeq\DoubleSeq.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CorbaSeq\DoubleSeqTypeSupportImpl.cpp;CorbaSeq\DoubleSeqTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\DoubleSeq.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Invoking "..\bin\opendds_idl on CorbaSeq\DoubleSeq.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CorbaSeq\DoubleSeqTypeSupportImpl.cpp;CorbaSeq\DoubleSeqTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt</AdditionalInputs>
+    </CustomBuild>
+    <CustomBuild Include="CorbaSeq\FloatSeq.idl">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\FloatSeq.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Invoking "..\bin\opendds_idl on CorbaSeq\FloatSeq.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CorbaSeq\FloatSeqTypeSupportImpl.cpp;CorbaSeq\FloatSeqTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\FloatSeq.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Invoking "..\bin\opendds_idl on CorbaSeq\FloatSeq.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CorbaSeq\FloatSeqTypeSupportImpl.cpp;CorbaSeq\FloatSeqTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\FloatSeq.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Invoking "..\bin\opendds_idl on CorbaSeq\FloatSeq.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CorbaSeq\FloatSeqTypeSupportImpl.cpp;CorbaSeq\FloatSeqTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\FloatSeq.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Invoking "..\bin\opendds_idl on CorbaSeq\FloatSeq.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CorbaSeq\FloatSeqTypeSupportImpl.cpp;CorbaSeq\FloatSeqTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt</AdditionalInputs>
+    </CustomBuild>
+    <CustomBuild Include="CorbaSeq\LongDoubleSeq.idl">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\LongDoubleSeq.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Invoking "..\bin\opendds_idl on CorbaSeq\LongDoubleSeq.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CorbaSeq\LongDoubleSeqTypeSupportImpl.cpp;CorbaSeq\LongDoubleSeqTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\LongDoubleSeq.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Invoking "..\bin\opendds_idl on CorbaSeq\LongDoubleSeq.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CorbaSeq\LongDoubleSeqTypeSupportImpl.cpp;CorbaSeq\LongDoubleSeqTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\LongDoubleSeq.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Invoking "..\bin\opendds_idl on CorbaSeq\LongDoubleSeq.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CorbaSeq\LongDoubleSeqTypeSupportImpl.cpp;CorbaSeq\LongDoubleSeqTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\LongDoubleSeq.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Invoking "..\bin\opendds_idl on CorbaSeq\LongDoubleSeq.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CorbaSeq\LongDoubleSeqTypeSupportImpl.cpp;CorbaSeq\LongDoubleSeqTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt</AdditionalInputs>
+    </CustomBuild>
+    <CustomBuild Include="CorbaSeq\LongLongSeq.idl">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\LongLongSeq.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Invoking "..\bin\opendds_idl on CorbaSeq\LongLongSeq.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CorbaSeq\LongLongSeqTypeSupportImpl.cpp;CorbaSeq\LongLongSeqTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\LongLongSeq.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Invoking "..\bin\opendds_idl on CorbaSeq\LongLongSeq.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CorbaSeq\LongLongSeqTypeSupportImpl.cpp;CorbaSeq\LongLongSeqTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\LongLongSeq.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Invoking "..\bin\opendds_idl on CorbaSeq\LongLongSeq.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CorbaSeq\LongLongSeqTypeSupportImpl.cpp;CorbaSeq\LongLongSeqTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\LongLongSeq.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Invoking "..\bin\opendds_idl on CorbaSeq\LongLongSeq.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CorbaSeq\LongLongSeqTypeSupportImpl.cpp;CorbaSeq\LongLongSeqTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt</AdditionalInputs>
+    </CustomBuild>
+    <CustomBuild Include="CorbaSeq\LongSeq.idl">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\LongSeq.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Invoking "..\bin\opendds_idl on CorbaSeq\LongSeq.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CorbaSeq\LongSeqTypeSupportImpl.cpp;CorbaSeq\LongSeqTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\LongSeq.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Invoking "..\bin\opendds_idl on CorbaSeq\LongSeq.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CorbaSeq\LongSeqTypeSupportImpl.cpp;CorbaSeq\LongSeqTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\LongSeq.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Invoking "..\bin\opendds_idl on CorbaSeq\LongSeq.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CorbaSeq\LongSeqTypeSupportImpl.cpp;CorbaSeq\LongSeqTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\LongSeq.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Invoking "..\bin\opendds_idl on CorbaSeq\LongSeq.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CorbaSeq\LongSeqTypeSupportImpl.cpp;CorbaSeq\LongSeqTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt</AdditionalInputs>
+    </CustomBuild>
+    <CustomBuild Include="CorbaSeq\OctetSeq.idl">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\OctetSeq.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Invoking "..\bin\opendds_idl on CorbaSeq\OctetSeq.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CorbaSeq\OctetSeqTypeSupportImpl.cpp;CorbaSeq\OctetSeqTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\OctetSeq.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Invoking "..\bin\opendds_idl on CorbaSeq\OctetSeq.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CorbaSeq\OctetSeqTypeSupportImpl.cpp;CorbaSeq\OctetSeqTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\OctetSeq.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Invoking "..\bin\opendds_idl on CorbaSeq\OctetSeq.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CorbaSeq\OctetSeqTypeSupportImpl.cpp;CorbaSeq\OctetSeqTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\OctetSeq.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Invoking "..\bin\opendds_idl on CorbaSeq\OctetSeq.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CorbaSeq\OctetSeqTypeSupportImpl.cpp;CorbaSeq\OctetSeqTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt</AdditionalInputs>
+    </CustomBuild>
+    <CustomBuild Include="CorbaSeq\ShortSeq.idl">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\ShortSeq.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Invoking "..\bin\opendds_idl on CorbaSeq\ShortSeq.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CorbaSeq\ShortSeqTypeSupportImpl.cpp;CorbaSeq\ShortSeqTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\ShortSeq.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Invoking "..\bin\opendds_idl on CorbaSeq\ShortSeq.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CorbaSeq\ShortSeqTypeSupportImpl.cpp;CorbaSeq\ShortSeqTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\ShortSeq.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Invoking "..\bin\opendds_idl on CorbaSeq\ShortSeq.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CorbaSeq\ShortSeqTypeSupportImpl.cpp;CorbaSeq\ShortSeqTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\ShortSeq.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Invoking "..\bin\opendds_idl on CorbaSeq\ShortSeq.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CorbaSeq\ShortSeqTypeSupportImpl.cpp;CorbaSeq\ShortSeqTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt</AdditionalInputs>
+    </CustomBuild>
+    <CustomBuild Include="CorbaSeq\StringSeq.idl">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\StringSeq.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Invoking "..\bin\opendds_idl on CorbaSeq\StringSeq.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CorbaSeq\StringSeqTypeSupportImpl.cpp;CorbaSeq\StringSeqTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\StringSeq.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Invoking "..\bin\opendds_idl on CorbaSeq\StringSeq.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CorbaSeq\StringSeqTypeSupportImpl.cpp;CorbaSeq\StringSeqTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\StringSeq.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Invoking "..\bin\opendds_idl on CorbaSeq\StringSeq.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CorbaSeq\StringSeqTypeSupportImpl.cpp;CorbaSeq\StringSeqTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\StringSeq.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Invoking "..\bin\opendds_idl on CorbaSeq\StringSeq.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CorbaSeq\StringSeqTypeSupportImpl.cpp;CorbaSeq\StringSeqTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt</AdditionalInputs>
+    </CustomBuild>
+    <CustomBuild Include="CorbaSeq\ULongLongSeq.idl">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\ULongLongSeq.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Invoking "..\bin\opendds_idl on CorbaSeq\ULongLongSeq.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CorbaSeq\ULongLongSeqTypeSupportImpl.cpp;CorbaSeq\ULongLongSeqTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\ULongLongSeq.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Invoking "..\bin\opendds_idl on CorbaSeq\ULongLongSeq.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CorbaSeq\ULongLongSeqTypeSupportImpl.cpp;CorbaSeq\ULongLongSeqTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\ULongLongSeq.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Invoking "..\bin\opendds_idl on CorbaSeq\ULongLongSeq.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CorbaSeq\ULongLongSeqTypeSupportImpl.cpp;CorbaSeq\ULongLongSeqTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\ULongLongSeq.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Invoking "..\bin\opendds_idl on CorbaSeq\ULongLongSeq.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CorbaSeq\ULongLongSeqTypeSupportImpl.cpp;CorbaSeq\ULongLongSeqTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt</AdditionalInputs>
+    </CustomBuild>
+    <CustomBuild Include="CorbaSeq\ULongSeq.idl">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\ULongSeq.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Invoking "..\bin\opendds_idl on CorbaSeq\ULongSeq.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CorbaSeq\ULongSeqTypeSupportImpl.cpp;CorbaSeq\ULongSeqTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\ULongSeq.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Invoking "..\bin\opendds_idl on CorbaSeq\ULongSeq.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CorbaSeq\ULongSeqTypeSupportImpl.cpp;CorbaSeq\ULongSeqTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\ULongSeq.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Invoking "..\bin\opendds_idl on CorbaSeq\ULongSeq.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CorbaSeq\ULongSeqTypeSupportImpl.cpp;CorbaSeq\ULongSeqTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\ULongSeq.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Invoking "..\bin\opendds_idl on CorbaSeq\ULongSeq.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CorbaSeq\ULongSeqTypeSupportImpl.cpp;CorbaSeq\ULongSeqTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt</AdditionalInputs>
+    </CustomBuild>
+    <CustomBuild Include="CorbaSeq\UShortSeq.idl">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\UShortSeq.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Invoking "..\bin\opendds_idl on CorbaSeq\UShortSeq.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CorbaSeq\UShortSeqTypeSupportImpl.cpp;CorbaSeq\UShortSeqTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\UShortSeq.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Invoking "..\bin\opendds_idl on CorbaSeq\UShortSeq.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CorbaSeq\UShortSeqTypeSupportImpl.cpp;CorbaSeq\UShortSeqTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\UShortSeq.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Invoking "..\bin\opendds_idl on CorbaSeq\UShortSeq.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CorbaSeq\UShortSeqTypeSupportImpl.cpp;CorbaSeq\UShortSeqTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\UShortSeq.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Invoking "..\bin\opendds_idl on CorbaSeq\UShortSeq.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CorbaSeq\UShortSeqTypeSupportImpl.cpp;CorbaSeq\UShortSeqTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt</AdditionalInputs>
+    </CustomBuild>
+    <CustomBuild Include="CorbaSeq\WCharSeq.idl">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\WCharSeq.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Invoking "..\bin\opendds_idl on CorbaSeq\WCharSeq.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CorbaSeq\WCharSeqTypeSupportImpl.cpp;CorbaSeq\WCharSeqTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\WCharSeq.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Invoking "..\bin\opendds_idl on CorbaSeq\WCharSeq.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CorbaSeq\WCharSeqTypeSupportImpl.cpp;CorbaSeq\WCharSeqTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\WCharSeq.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Invoking "..\bin\opendds_idl on CorbaSeq\WCharSeq.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CorbaSeq\WCharSeqTypeSupportImpl.cpp;CorbaSeq\WCharSeqTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\WCharSeq.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Invoking "..\bin\opendds_idl on CorbaSeq\WCharSeq.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CorbaSeq\WCharSeqTypeSupportImpl.cpp;CorbaSeq\WCharSeqTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt</AdditionalInputs>
+    </CustomBuild>
+    <CustomBuild Include="CorbaSeq\WStringSeq.idl">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\WStringSeq.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Invoking "..\bin\opendds_idl on CorbaSeq\WStringSeq.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CorbaSeq\WStringSeqTypeSupportImpl.cpp;CorbaSeq\WStringSeqTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\WStringSeq.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Invoking "..\bin\opendds_idl on CorbaSeq\WStringSeq.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CorbaSeq\WStringSeqTypeSupportImpl.cpp;CorbaSeq\WStringSeqTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\WStringSeq.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Invoking "..\bin\opendds_idl on CorbaSeq\WStringSeq.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CorbaSeq\WStringSeqTypeSupportImpl.cpp;CorbaSeq\WStringSeqTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\WStringSeq.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Invoking "..\bin\opendds_idl on CorbaSeq\WStringSeq.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CorbaSeq\WStringSeqTypeSupportImpl.cpp;CorbaSeq\WStringSeqTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt</AdditionalInputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="DdsDcps.idl">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -I.. -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. &quot;DdsDcps.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Invoking "$(ACE_ROOT)\bin\tao_idl on DdsDcps.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">DdsDcpsC.cpp;DdsDcpsC.h;DdsDcpsC.inl;DdsDcpsS.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ACE_ROOT)\bin\tao_idl.exe</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -I.. -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. &quot;DdsDcps.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Invoking "$(ACE_ROOT)\bin\tao_idl on DdsDcps.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">DdsDcpsC.cpp;DdsDcpsC.h;DdsDcpsC.inl;DdsDcpsS.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ACE_ROOT)\bin\tao_idl.exe</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -I.. -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. &quot;DdsDcps.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Invoking "$(ACE_ROOT)\bin\tao_idl on DdsDcps.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">DdsDcpsC.cpp;DdsDcpsC.h;DdsDcpsC.inl;DdsDcpsS.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ACE_ROOT)\bin\tao_idl.exe</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -I.. -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. &quot;DdsDcps.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Invoking "$(ACE_ROOT)\bin\tao_idl on DdsDcps.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">DdsDcpsC.cpp;DdsDcpsC.h;DdsDcpsC.inl;DdsDcpsS.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ACE_ROOT)\bin\tao_idl.exe</AdditionalInputs>
+    </CustomBuild>
+    <CustomBuild Include="DdsDcpsDomain.idl">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -I.. -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. &quot;DdsDcpsDomain.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Invoking "$(ACE_ROOT)\bin\tao_idl on DdsDcpsDomain.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">DdsDcpsDomainC.cpp;DdsDcpsDomainC.h;DdsDcpsDomainC.inl;DdsDcpsDomainS.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ACE_ROOT)\bin\tao_idl.exe</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -I.. -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. &quot;DdsDcpsDomain.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Invoking "$(ACE_ROOT)\bin\tao_idl on DdsDcpsDomain.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">DdsDcpsDomainC.cpp;DdsDcpsDomainC.h;DdsDcpsDomainC.inl;DdsDcpsDomainS.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ACE_ROOT)\bin\tao_idl.exe</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -I.. -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. &quot;DdsDcpsDomain.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Invoking "$(ACE_ROOT)\bin\tao_idl on DdsDcpsDomain.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">DdsDcpsDomainC.cpp;DdsDcpsDomainC.h;DdsDcpsDomainC.inl;DdsDcpsDomainS.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ACE_ROOT)\bin\tao_idl.exe</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -I.. -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. &quot;DdsDcpsDomain.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Invoking "$(ACE_ROOT)\bin\tao_idl on DdsDcpsDomain.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">DdsDcpsDomainC.cpp;DdsDcpsDomainC.h;DdsDcpsDomainC.inl;DdsDcpsDomainS.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ACE_ROOT)\bin\tao_idl.exe</AdditionalInputs>
+    </CustomBuild>
+    <CustomBuild Include="DdsDcpsInfrastructureTypeSupport.idl">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -I.. &quot;DdsDcpsInfrastructureTypeSupport.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Invoking "$(ACE_ROOT)\bin\tao_idl on DdsDcpsInfrastructureTypeSupport.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">DdsDcpsInfrastructureTypeSupportC.cpp;DdsDcpsInfrastructureTypeSupportC.h;DdsDcpsInfrastructureTypeSupportC.inl;DdsDcpsInfrastructureTypeSupportS.cpp;DdsDcpsInfrastructureTypeSupportS.h;DdsDcpsInfrastructureTypeSupportS.inl</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ACE_ROOT)\bin\tao_idl.exe</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -I.. &quot;DdsDcpsInfrastructureTypeSupport.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Invoking "$(ACE_ROOT)\bin\tao_idl on DdsDcpsInfrastructureTypeSupport.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">DdsDcpsInfrastructureTypeSupportC.cpp;DdsDcpsInfrastructureTypeSupportC.h;DdsDcpsInfrastructureTypeSupportC.inl;DdsDcpsInfrastructureTypeSupportS.cpp;DdsDcpsInfrastructureTypeSupportS.h;DdsDcpsInfrastructureTypeSupportS.inl</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ACE_ROOT)\bin\tao_idl.exe</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -I.. &quot;DdsDcpsInfrastructureTypeSupport.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Invoking "$(ACE_ROOT)\bin\tao_idl on DdsDcpsInfrastructureTypeSupport.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">DdsDcpsInfrastructureTypeSupportC.cpp;DdsDcpsInfrastructureTypeSupportC.h;DdsDcpsInfrastructureTypeSupportC.inl;DdsDcpsInfrastructureTypeSupportS.cpp;DdsDcpsInfrastructureTypeSupportS.h;DdsDcpsInfrastructureTypeSupportS.inl</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ACE_ROOT)\bin\tao_idl.exe</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -I.. &quot;DdsDcpsInfrastructureTypeSupport.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Invoking "$(ACE_ROOT)\bin\tao_idl on DdsDcpsInfrastructureTypeSupport.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">DdsDcpsInfrastructureTypeSupportC.cpp;DdsDcpsInfrastructureTypeSupportC.h;DdsDcpsInfrastructureTypeSupportC.inl;DdsDcpsInfrastructureTypeSupportS.cpp;DdsDcpsInfrastructureTypeSupportS.h;DdsDcpsInfrastructureTypeSupportS.inl</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ACE_ROOT)\bin\tao_idl.exe</AdditionalInputs>
+    </CustomBuild>
+    <CustomBuild Include="DdsDcpsPublication.idl">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -I.. -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. &quot;DdsDcpsPublication.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Invoking "$(ACE_ROOT)\bin\tao_idl on DdsDcpsPublication.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">DdsDcpsPublicationC.cpp;DdsDcpsPublicationC.h;DdsDcpsPublicationC.inl;DdsDcpsPublicationS.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ACE_ROOT)\bin\tao_idl.exe</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -I.. -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. &quot;DdsDcpsPublication.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Invoking "$(ACE_ROOT)\bin\tao_idl on DdsDcpsPublication.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">DdsDcpsPublicationC.cpp;DdsDcpsPublicationC.h;DdsDcpsPublicationC.inl;DdsDcpsPublicationS.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ACE_ROOT)\bin\tao_idl.exe</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -I.. -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. &quot;DdsDcpsPublication.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Invoking "$(ACE_ROOT)\bin\tao_idl on DdsDcpsPublication.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">DdsDcpsPublicationC.cpp;DdsDcpsPublicationC.h;DdsDcpsPublicationC.inl;DdsDcpsPublicationS.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ACE_ROOT)\bin\tao_idl.exe</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -I.. -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. &quot;DdsDcpsPublication.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Invoking "$(ACE_ROOT)\bin\tao_idl on DdsDcpsPublication.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">DdsDcpsPublicationC.cpp;DdsDcpsPublicationC.h;DdsDcpsPublicationC.inl;DdsDcpsPublicationS.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ACE_ROOT)\bin\tao_idl.exe</AdditionalInputs>
+    </CustomBuild>
+    <CustomBuild Include="DdsDcpsSubscription.idl">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -I.. -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. &quot;DdsDcpsSubscription.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Invoking "$(ACE_ROOT)\bin\tao_idl on DdsDcpsSubscription.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">DdsDcpsSubscriptionC.cpp;DdsDcpsSubscriptionC.h;DdsDcpsSubscriptionC.inl;DdsDcpsSubscriptionS.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ACE_ROOT)\bin\tao_idl.exe</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -I.. -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. &quot;DdsDcpsSubscription.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Invoking "$(ACE_ROOT)\bin\tao_idl on DdsDcpsSubscription.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">DdsDcpsSubscriptionC.cpp;DdsDcpsSubscriptionC.h;DdsDcpsSubscriptionC.inl;DdsDcpsSubscriptionS.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ACE_ROOT)\bin\tao_idl.exe</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -I.. -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. &quot;DdsDcpsSubscription.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Invoking "$(ACE_ROOT)\bin\tao_idl on DdsDcpsSubscription.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">DdsDcpsSubscriptionC.cpp;DdsDcpsSubscriptionC.h;DdsDcpsSubscriptionC.inl;DdsDcpsSubscriptionS.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ACE_ROOT)\bin\tao_idl.exe</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -I.. -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. &quot;DdsDcpsSubscription.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Invoking "$(ACE_ROOT)\bin\tao_idl on DdsDcpsSubscription.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">DdsDcpsSubscriptionC.cpp;DdsDcpsSubscriptionC.h;DdsDcpsSubscriptionC.inl;DdsDcpsSubscriptionS.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ACE_ROOT)\bin\tao_idl.exe</AdditionalInputs>
+    </CustomBuild>
+    <CustomBuild Include="DdsDcpsSubscriptionExt.idl">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -I.. -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. &quot;DdsDcpsSubscriptionExt.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Invoking "$(ACE_ROOT)\bin\tao_idl on DdsDcpsSubscriptionExt.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">DdsDcpsSubscriptionExtC.cpp;DdsDcpsSubscriptionExtC.h;DdsDcpsSubscriptionExtC.inl;DdsDcpsSubscriptionExtS.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ACE_ROOT)\bin\tao_idl.exe</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -I.. -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. &quot;DdsDcpsSubscriptionExt.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Invoking "$(ACE_ROOT)\bin\tao_idl on DdsDcpsSubscriptionExt.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">DdsDcpsSubscriptionExtC.cpp;DdsDcpsSubscriptionExtC.h;DdsDcpsSubscriptionExtC.inl;DdsDcpsSubscriptionExtS.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ACE_ROOT)\bin\tao_idl.exe</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -I.. -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. &quot;DdsDcpsSubscriptionExt.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Invoking "$(ACE_ROOT)\bin\tao_idl on DdsDcpsSubscriptionExt.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">DdsDcpsSubscriptionExtC.cpp;DdsDcpsSubscriptionExtC.h;DdsDcpsSubscriptionExtC.inl;DdsDcpsSubscriptionExtS.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ACE_ROOT)\bin\tao_idl.exe</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -I.. -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. &quot;DdsDcpsSubscriptionExt.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Invoking "$(ACE_ROOT)\bin\tao_idl on DdsDcpsSubscriptionExt.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">DdsDcpsSubscriptionExtC.cpp;DdsDcpsSubscriptionExtC.h;DdsDcpsSubscriptionExtC.inl;DdsDcpsSubscriptionExtS.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ACE_ROOT)\bin\tao_idl.exe</AdditionalInputs>
+    </CustomBuild>
+    <CustomBuild Include="DdsDcpsTopic.idl">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -I.. -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. &quot;DdsDcpsTopic.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Invoking "$(ACE_ROOT)\bin\tao_idl on DdsDcpsTopic.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">DdsDcpsTopicC.cpp;DdsDcpsTopicC.h;DdsDcpsTopicC.inl;DdsDcpsTopicS.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ACE_ROOT)\bin\tao_idl.exe</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -I.. -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. &quot;DdsDcpsTopic.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Invoking "$(ACE_ROOT)\bin\tao_idl on DdsDcpsTopic.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">DdsDcpsTopicC.cpp;DdsDcpsTopicC.h;DdsDcpsTopicC.inl;DdsDcpsTopicS.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ACE_ROOT)\bin\tao_idl.exe</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -I.. -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. &quot;DdsDcpsTopic.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Invoking "$(ACE_ROOT)\bin\tao_idl on DdsDcpsTopic.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">DdsDcpsTopicC.cpp;DdsDcpsTopicC.h;DdsDcpsTopicC.inl;DdsDcpsTopicS.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ACE_ROOT)\bin\tao_idl.exe</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -I.. -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. &quot;DdsDcpsTopic.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Invoking "$(ACE_ROOT)\bin\tao_idl on DdsDcpsTopic.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">DdsDcpsTopicC.cpp;DdsDcpsTopicC.h;DdsDcpsTopicC.inl;DdsDcpsTopicS.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ACE_ROOT)\bin\tao_idl.exe</AdditionalInputs>
+    </CustomBuild>
+    <CustomBuild Include="DdsDcpsTypeSupportExt.idl">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -I.. -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. &quot;DdsDcpsTypeSupportExt.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Invoking "$(ACE_ROOT)\bin\tao_idl on DdsDcpsTypeSupportExt.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">DdsDcpsTypeSupportExtC.cpp;DdsDcpsTypeSupportExtC.h;DdsDcpsTypeSupportExtC.inl;DdsDcpsTypeSupportExtS.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ACE_ROOT)\bin\tao_idl.exe</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -I.. -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. &quot;DdsDcpsTypeSupportExt.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Invoking "$(ACE_ROOT)\bin\tao_idl on DdsDcpsTypeSupportExt.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">DdsDcpsTypeSupportExtC.cpp;DdsDcpsTypeSupportExtC.h;DdsDcpsTypeSupportExtC.inl;DdsDcpsTypeSupportExtS.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ACE_ROOT)\bin\tao_idl.exe</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -I.. -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. &quot;DdsDcpsTypeSupportExt.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Invoking "$(ACE_ROOT)\bin\tao_idl on DdsDcpsTypeSupportExt.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">DdsDcpsTypeSupportExtC.cpp;DdsDcpsTypeSupportExtC.h;DdsDcpsTypeSupportExtC.inl;DdsDcpsTypeSupportExtS.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ACE_ROOT)\bin\tao_idl.exe</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -I.. -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. &quot;DdsDcpsTypeSupportExt.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Invoking "$(ACE_ROOT)\bin\tao_idl on DdsDcpsTypeSupportExt.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">DdsDcpsTypeSupportExtC.cpp;DdsDcpsTypeSupportExtC.h;DdsDcpsTypeSupportExtC.inl;DdsDcpsTypeSupportExtS.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ACE_ROOT)\bin\tao_idl.exe</AdditionalInputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="DdsDcpsGuid.idl">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -I.. -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. &quot;DdsDcpsGuid.idl&quot; &amp;&amp; ..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SI &quot;DdsDcpsGuid.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Invoking "$(ACE_ROOT)\bin\tao_idl and ..\bin\opendds_idl on DdsDcpsGuid.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">DdsDcpsGuidC.cpp;DdsDcpsGuidC.h;DdsDcpsGuidC.inl;DdsDcpsGuidS.h;DdsDcpsGuidTypeSupportImpl.cpp;DdsDcpsGuidTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ACE_ROOT)\bin\tao_idl.exe;..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -I.. -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. &quot;DdsDcpsGuid.idl&quot; &amp;&amp; ..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SI &quot;DdsDcpsGuid.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Invoking "$(ACE_ROOT)\bin\tao_idl and ..\bin\opendds_idl on DdsDcpsGuid.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">DdsDcpsGuidC.cpp;DdsDcpsGuidC.h;DdsDcpsGuidC.inl;DdsDcpsGuidS.h;DdsDcpsGuidTypeSupportImpl.cpp;DdsDcpsGuidTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ACE_ROOT)\bin\tao_idl.exe;..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -I.. -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. &quot;DdsDcpsGuid.idl&quot; &amp;&amp; ..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SI &quot;DdsDcpsGuid.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Invoking "$(ACE_ROOT)\bin\tao_idl and ..\bin\opendds_idl on DdsDcpsGuid.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">DdsDcpsGuidC.cpp;DdsDcpsGuidC.h;DdsDcpsGuidC.inl;DdsDcpsGuidS.h;DdsDcpsGuidTypeSupportImpl.cpp;DdsDcpsGuidTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ACE_ROOT)\bin\tao_idl.exe;..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -I.. -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. &quot;DdsDcpsGuid.idl&quot; &amp;&amp; ..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SI &quot;DdsDcpsGuid.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Invoking "$(ACE_ROOT)\bin\tao_idl and ..\bin\opendds_idl on DdsDcpsGuid.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">DdsDcpsGuidC.cpp;DdsDcpsGuidC.h;DdsDcpsGuidC.inl;DdsDcpsGuidS.h;DdsDcpsGuidTypeSupportImpl.cpp;DdsDcpsGuidTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ACE_ROOT)\bin\tao_idl.exe;..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt</AdditionalInputs>
+    </CustomBuild>
+    <CustomBuild Include="DdsDcpsInfoUtils.idl">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -I.. -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. &quot;DdsDcpsInfoUtils.idl&quot; &amp;&amp; ..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SI &quot;DdsDcpsInfoUtils.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Invoking "$(ACE_ROOT)\bin\tao_idl and ..\bin\opendds_idl on DdsDcpsInfoUtils.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">DdsDcpsInfoUtilsC.cpp;DdsDcpsInfoUtilsC.h;DdsDcpsInfoUtilsC.inl;DdsDcpsInfoUtilsS.h;DdsDcpsInfoUtilsTypeSupportImpl.cpp;DdsDcpsInfoUtilsTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ACE_ROOT)\bin\tao_idl.exe;..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -I.. -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. &quot;DdsDcpsInfoUtils.idl&quot; &amp;&amp; ..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SI &quot;DdsDcpsInfoUtils.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Invoking "$(ACE_ROOT)\bin\tao_idl and ..\bin\opendds_idl on DdsDcpsInfoUtils.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">DdsDcpsInfoUtilsC.cpp;DdsDcpsInfoUtilsC.h;DdsDcpsInfoUtilsC.inl;DdsDcpsInfoUtilsS.h;DdsDcpsInfoUtilsTypeSupportImpl.cpp;DdsDcpsInfoUtilsTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ACE_ROOT)\bin\tao_idl.exe;..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -I.. -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. &quot;DdsDcpsInfoUtils.idl&quot; &amp;&amp; ..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SI &quot;DdsDcpsInfoUtils.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Invoking "$(ACE_ROOT)\bin\tao_idl and ..\bin\opendds_idl on DdsDcpsInfoUtils.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">DdsDcpsInfoUtilsC.cpp;DdsDcpsInfoUtilsC.h;DdsDcpsInfoUtilsC.inl;DdsDcpsInfoUtilsS.h;DdsDcpsInfoUtilsTypeSupportImpl.cpp;DdsDcpsInfoUtilsTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ACE_ROOT)\bin\tao_idl.exe;..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -I.. -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. &quot;DdsDcpsInfoUtils.idl&quot; &amp;&amp; ..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SI &quot;DdsDcpsInfoUtils.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Invoking "$(ACE_ROOT)\bin\tao_idl and ..\bin\opendds_idl on DdsDcpsInfoUtils.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">DdsDcpsInfoUtilsC.cpp;DdsDcpsInfoUtilsC.h;DdsDcpsInfoUtilsC.inl;DdsDcpsInfoUtilsS.h;DdsDcpsInfoUtilsTypeSupportImpl.cpp;DdsDcpsInfoUtilsTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ACE_ROOT)\bin\tao_idl.exe;..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt</AdditionalInputs>
+    </CustomBuild>
+    <CustomBuild Include="DdsDcpsInfrastructure.idl">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -I.. -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. &quot;DdsDcpsInfrastructure.idl&quot; &amp;&amp; ..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h &quot;DdsDcpsInfrastructure.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Invoking "$(ACE_ROOT)\bin\tao_idl and ..\bin\opendds_idl on DdsDcpsInfrastructure.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">DdsDcpsInfrastructureC.cpp;DdsDcpsInfrastructureC.h;DdsDcpsInfrastructureC.inl;DdsDcpsInfrastructureS.h;DdsDcpsInfrastructureTypeSupport.idl;DdsDcpsInfrastructureTypeSupportImpl.cpp;DdsDcpsInfrastructureTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ACE_ROOT)\bin\tao_idl.exe;..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -I.. -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. &quot;DdsDcpsInfrastructure.idl&quot; &amp;&amp; ..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h &quot;DdsDcpsInfrastructure.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Invoking "$(ACE_ROOT)\bin\tao_idl and ..\bin\opendds_idl on DdsDcpsInfrastructure.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">DdsDcpsInfrastructureC.cpp;DdsDcpsInfrastructureC.h;DdsDcpsInfrastructureC.inl;DdsDcpsInfrastructureS.h;DdsDcpsInfrastructureTypeSupport.idl;DdsDcpsInfrastructureTypeSupportImpl.cpp;DdsDcpsInfrastructureTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ACE_ROOT)\bin\tao_idl.exe;..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -I.. -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. &quot;DdsDcpsInfrastructure.idl&quot; &amp;&amp; ..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h &quot;DdsDcpsInfrastructure.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Invoking "$(ACE_ROOT)\bin\tao_idl and ..\bin\opendds_idl on DdsDcpsInfrastructure.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">DdsDcpsInfrastructureC.cpp;DdsDcpsInfrastructureC.h;DdsDcpsInfrastructureC.inl;DdsDcpsInfrastructureS.h;DdsDcpsInfrastructureTypeSupport.idl;DdsDcpsInfrastructureTypeSupportImpl.cpp;DdsDcpsInfrastructureTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ACE_ROOT)\bin\tao_idl.exe;..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -I.. -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. &quot;DdsDcpsInfrastructure.idl&quot; &amp;&amp; ..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h &quot;DdsDcpsInfrastructure.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Invoking "$(ACE_ROOT)\bin\tao_idl and ..\bin\opendds_idl on DdsDcpsInfrastructure.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">DdsDcpsInfrastructureC.cpp;DdsDcpsInfrastructureC.h;DdsDcpsInfrastructureC.inl;DdsDcpsInfrastructureS.h;DdsDcpsInfrastructureTypeSupport.idl;DdsDcpsInfrastructureTypeSupportImpl.cpp;DdsDcpsInfrastructureTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ACE_ROOT)\bin\tao_idl.exe;..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt</AdditionalInputs>
+    </CustomBuild>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

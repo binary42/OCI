@@ -1,0 +1,1356 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="OpenDDS_Dcps_idl_gen_vc8"
+	ProjectGUID="{CA33057E-FECA-1BAD-2471-C85400006233}"
+	RootNamespace="OpenDDS_Dcps_idl_gen_vc8"
+	Keyword="Win32Proj"
+	SignManifests="true"
+	>
+	<Platforms>
+		<Platform
+			Name="Win32"
+		/>
+		<Platform
+			Name="x64"
+		/>
+	</Platforms>
+	<ToolFiles>
+	</ToolFiles>
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="."
+			IntermediateDirectory="Debug\OpenDDS_Dcps_idl_gen_vc8\I386"
+			ConfigurationType="10"
+			CharacterSet="0"
+
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="Release"
+			IntermediateDirectory="Release\OpenDDS_Dcps_idl_gen_vc8\I386"
+			ConfigurationType="10"
+			CharacterSet="0"
+
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+		<Configuration
+			Name="Debug|x64"
+			OutputDirectory="."
+			IntermediateDirectory="Debug\OpenDDS_Dcps_idl_gen_vc8\AMD64"
+			ConfigurationType="10"
+			CharacterSet="0"
+
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+		<Configuration
+			Name="Release|x64"
+			OutputDirectory="Release"
+			IntermediateDirectory="Release\OpenDDS_Dcps_idl_gen_vc8\AMD64"
+			ConfigurationType="10"
+			CharacterSet="0"
+
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+	</Configurations>
+	<References>
+	</References>
+	<Files>
+		<Filter
+			Name="Typesupport Files"
+			Filter="idl">
+			<File
+				RelativePath="CorbaSeq\BooleanSeq.idl">
+				<FileConfiguration
+					Name="Debug|Win32"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking ..\bin\opendds_idl on CorbaSeq\BooleanSeq.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\BooleanSeq.idl&quot;"
+						AdditionalDependencies="..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt"
+						Outputs="CorbaSeq\BooleanSeqTypeSupportImpl.cpp;CorbaSeq\BooleanSeqTypeSupportImpl.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking ..\bin\opendds_idl on CorbaSeq\BooleanSeq.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\BooleanSeq.idl&quot;"
+						AdditionalDependencies="..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt"
+						Outputs="CorbaSeq\BooleanSeqTypeSupportImpl.cpp;CorbaSeq\BooleanSeqTypeSupportImpl.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|x64"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking ..\bin\opendds_idl on CorbaSeq\BooleanSeq.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\BooleanSeq.idl&quot;"
+						AdditionalDependencies="..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt"
+						Outputs="CorbaSeq\BooleanSeqTypeSupportImpl.cpp;CorbaSeq\BooleanSeqTypeSupportImpl.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|x64"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking ..\bin\opendds_idl on CorbaSeq\BooleanSeq.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\BooleanSeq.idl&quot;"
+						AdditionalDependencies="..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt"
+						Outputs="CorbaSeq\BooleanSeqTypeSupportImpl.cpp;CorbaSeq\BooleanSeqTypeSupportImpl.h"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="CorbaSeq\CharSeq.idl">
+				<FileConfiguration
+					Name="Debug|Win32"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking ..\bin\opendds_idl on CorbaSeq\CharSeq.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\CharSeq.idl&quot;"
+						AdditionalDependencies="..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt"
+						Outputs="CorbaSeq\CharSeqTypeSupportImpl.cpp;CorbaSeq\CharSeqTypeSupportImpl.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking ..\bin\opendds_idl on CorbaSeq\CharSeq.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\CharSeq.idl&quot;"
+						AdditionalDependencies="..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt"
+						Outputs="CorbaSeq\CharSeqTypeSupportImpl.cpp;CorbaSeq\CharSeqTypeSupportImpl.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|x64"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking ..\bin\opendds_idl on CorbaSeq\CharSeq.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\CharSeq.idl&quot;"
+						AdditionalDependencies="..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt"
+						Outputs="CorbaSeq\CharSeqTypeSupportImpl.cpp;CorbaSeq\CharSeqTypeSupportImpl.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|x64"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking ..\bin\opendds_idl on CorbaSeq\CharSeq.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\CharSeq.idl&quot;"
+						AdditionalDependencies="..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt"
+						Outputs="CorbaSeq\CharSeqTypeSupportImpl.cpp;CorbaSeq\CharSeqTypeSupportImpl.h"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="CorbaSeq\DoubleSeq.idl">
+				<FileConfiguration
+					Name="Debug|Win32"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking ..\bin\opendds_idl on CorbaSeq\DoubleSeq.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\DoubleSeq.idl&quot;"
+						AdditionalDependencies="..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt"
+						Outputs="CorbaSeq\DoubleSeqTypeSupportImpl.cpp;CorbaSeq\DoubleSeqTypeSupportImpl.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking ..\bin\opendds_idl on CorbaSeq\DoubleSeq.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\DoubleSeq.idl&quot;"
+						AdditionalDependencies="..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt"
+						Outputs="CorbaSeq\DoubleSeqTypeSupportImpl.cpp;CorbaSeq\DoubleSeqTypeSupportImpl.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|x64"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking ..\bin\opendds_idl on CorbaSeq\DoubleSeq.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\DoubleSeq.idl&quot;"
+						AdditionalDependencies="..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt"
+						Outputs="CorbaSeq\DoubleSeqTypeSupportImpl.cpp;CorbaSeq\DoubleSeqTypeSupportImpl.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|x64"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking ..\bin\opendds_idl on CorbaSeq\DoubleSeq.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\DoubleSeq.idl&quot;"
+						AdditionalDependencies="..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt"
+						Outputs="CorbaSeq\DoubleSeqTypeSupportImpl.cpp;CorbaSeq\DoubleSeqTypeSupportImpl.h"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="CorbaSeq\FloatSeq.idl">
+				<FileConfiguration
+					Name="Debug|Win32"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking ..\bin\opendds_idl on CorbaSeq\FloatSeq.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\FloatSeq.idl&quot;"
+						AdditionalDependencies="..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt"
+						Outputs="CorbaSeq\FloatSeqTypeSupportImpl.cpp;CorbaSeq\FloatSeqTypeSupportImpl.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking ..\bin\opendds_idl on CorbaSeq\FloatSeq.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\FloatSeq.idl&quot;"
+						AdditionalDependencies="..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt"
+						Outputs="CorbaSeq\FloatSeqTypeSupportImpl.cpp;CorbaSeq\FloatSeqTypeSupportImpl.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|x64"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking ..\bin\opendds_idl on CorbaSeq\FloatSeq.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\FloatSeq.idl&quot;"
+						AdditionalDependencies="..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt"
+						Outputs="CorbaSeq\FloatSeqTypeSupportImpl.cpp;CorbaSeq\FloatSeqTypeSupportImpl.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|x64"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking ..\bin\opendds_idl on CorbaSeq\FloatSeq.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\FloatSeq.idl&quot;"
+						AdditionalDependencies="..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt"
+						Outputs="CorbaSeq\FloatSeqTypeSupportImpl.cpp;CorbaSeq\FloatSeqTypeSupportImpl.h"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="CorbaSeq\LongDoubleSeq.idl">
+				<FileConfiguration
+					Name="Debug|Win32"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking ..\bin\opendds_idl on CorbaSeq\LongDoubleSeq.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\LongDoubleSeq.idl&quot;"
+						AdditionalDependencies="..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt"
+						Outputs="CorbaSeq\LongDoubleSeqTypeSupportImpl.cpp;CorbaSeq\LongDoubleSeqTypeSupportImpl.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking ..\bin\opendds_idl on CorbaSeq\LongDoubleSeq.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\LongDoubleSeq.idl&quot;"
+						AdditionalDependencies="..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt"
+						Outputs="CorbaSeq\LongDoubleSeqTypeSupportImpl.cpp;CorbaSeq\LongDoubleSeqTypeSupportImpl.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|x64"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking ..\bin\opendds_idl on CorbaSeq\LongDoubleSeq.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\LongDoubleSeq.idl&quot;"
+						AdditionalDependencies="..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt"
+						Outputs="CorbaSeq\LongDoubleSeqTypeSupportImpl.cpp;CorbaSeq\LongDoubleSeqTypeSupportImpl.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|x64"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking ..\bin\opendds_idl on CorbaSeq\LongDoubleSeq.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\LongDoubleSeq.idl&quot;"
+						AdditionalDependencies="..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt"
+						Outputs="CorbaSeq\LongDoubleSeqTypeSupportImpl.cpp;CorbaSeq\LongDoubleSeqTypeSupportImpl.h"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="CorbaSeq\LongLongSeq.idl">
+				<FileConfiguration
+					Name="Debug|Win32"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking ..\bin\opendds_idl on CorbaSeq\LongLongSeq.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\LongLongSeq.idl&quot;"
+						AdditionalDependencies="..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt"
+						Outputs="CorbaSeq\LongLongSeqTypeSupportImpl.cpp;CorbaSeq\LongLongSeqTypeSupportImpl.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking ..\bin\opendds_idl on CorbaSeq\LongLongSeq.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\LongLongSeq.idl&quot;"
+						AdditionalDependencies="..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt"
+						Outputs="CorbaSeq\LongLongSeqTypeSupportImpl.cpp;CorbaSeq\LongLongSeqTypeSupportImpl.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|x64"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking ..\bin\opendds_idl on CorbaSeq\LongLongSeq.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\LongLongSeq.idl&quot;"
+						AdditionalDependencies="..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt"
+						Outputs="CorbaSeq\LongLongSeqTypeSupportImpl.cpp;CorbaSeq\LongLongSeqTypeSupportImpl.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|x64"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking ..\bin\opendds_idl on CorbaSeq\LongLongSeq.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\LongLongSeq.idl&quot;"
+						AdditionalDependencies="..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt"
+						Outputs="CorbaSeq\LongLongSeqTypeSupportImpl.cpp;CorbaSeq\LongLongSeqTypeSupportImpl.h"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="CorbaSeq\LongSeq.idl">
+				<FileConfiguration
+					Name="Debug|Win32"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking ..\bin\opendds_idl on CorbaSeq\LongSeq.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\LongSeq.idl&quot;"
+						AdditionalDependencies="..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt"
+						Outputs="CorbaSeq\LongSeqTypeSupportImpl.cpp;CorbaSeq\LongSeqTypeSupportImpl.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking ..\bin\opendds_idl on CorbaSeq\LongSeq.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\LongSeq.idl&quot;"
+						AdditionalDependencies="..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt"
+						Outputs="CorbaSeq\LongSeqTypeSupportImpl.cpp;CorbaSeq\LongSeqTypeSupportImpl.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|x64"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking ..\bin\opendds_idl on CorbaSeq\LongSeq.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\LongSeq.idl&quot;"
+						AdditionalDependencies="..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt"
+						Outputs="CorbaSeq\LongSeqTypeSupportImpl.cpp;CorbaSeq\LongSeqTypeSupportImpl.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|x64"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking ..\bin\opendds_idl on CorbaSeq\LongSeq.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\LongSeq.idl&quot;"
+						AdditionalDependencies="..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt"
+						Outputs="CorbaSeq\LongSeqTypeSupportImpl.cpp;CorbaSeq\LongSeqTypeSupportImpl.h"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="CorbaSeq\OctetSeq.idl">
+				<FileConfiguration
+					Name="Debug|Win32"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking ..\bin\opendds_idl on CorbaSeq\OctetSeq.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\OctetSeq.idl&quot;"
+						AdditionalDependencies="..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt"
+						Outputs="CorbaSeq\OctetSeqTypeSupportImpl.cpp;CorbaSeq\OctetSeqTypeSupportImpl.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking ..\bin\opendds_idl on CorbaSeq\OctetSeq.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\OctetSeq.idl&quot;"
+						AdditionalDependencies="..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt"
+						Outputs="CorbaSeq\OctetSeqTypeSupportImpl.cpp;CorbaSeq\OctetSeqTypeSupportImpl.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|x64"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking ..\bin\opendds_idl on CorbaSeq\OctetSeq.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\OctetSeq.idl&quot;"
+						AdditionalDependencies="..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt"
+						Outputs="CorbaSeq\OctetSeqTypeSupportImpl.cpp;CorbaSeq\OctetSeqTypeSupportImpl.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|x64"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking ..\bin\opendds_idl on CorbaSeq\OctetSeq.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\OctetSeq.idl&quot;"
+						AdditionalDependencies="..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt"
+						Outputs="CorbaSeq\OctetSeqTypeSupportImpl.cpp;CorbaSeq\OctetSeqTypeSupportImpl.h"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="CorbaSeq\ShortSeq.idl">
+				<FileConfiguration
+					Name="Debug|Win32"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking ..\bin\opendds_idl on CorbaSeq\ShortSeq.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\ShortSeq.idl&quot;"
+						AdditionalDependencies="..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt"
+						Outputs="CorbaSeq\ShortSeqTypeSupportImpl.cpp;CorbaSeq\ShortSeqTypeSupportImpl.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking ..\bin\opendds_idl on CorbaSeq\ShortSeq.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\ShortSeq.idl&quot;"
+						AdditionalDependencies="..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt"
+						Outputs="CorbaSeq\ShortSeqTypeSupportImpl.cpp;CorbaSeq\ShortSeqTypeSupportImpl.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|x64"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking ..\bin\opendds_idl on CorbaSeq\ShortSeq.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\ShortSeq.idl&quot;"
+						AdditionalDependencies="..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt"
+						Outputs="CorbaSeq\ShortSeqTypeSupportImpl.cpp;CorbaSeq\ShortSeqTypeSupportImpl.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|x64"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking ..\bin\opendds_idl on CorbaSeq\ShortSeq.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\ShortSeq.idl&quot;"
+						AdditionalDependencies="..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt"
+						Outputs="CorbaSeq\ShortSeqTypeSupportImpl.cpp;CorbaSeq\ShortSeqTypeSupportImpl.h"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="CorbaSeq\StringSeq.idl">
+				<FileConfiguration
+					Name="Debug|Win32"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking ..\bin\opendds_idl on CorbaSeq\StringSeq.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\StringSeq.idl&quot;"
+						AdditionalDependencies="..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt"
+						Outputs="CorbaSeq\StringSeqTypeSupportImpl.cpp;CorbaSeq\StringSeqTypeSupportImpl.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking ..\bin\opendds_idl on CorbaSeq\StringSeq.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\StringSeq.idl&quot;"
+						AdditionalDependencies="..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt"
+						Outputs="CorbaSeq\StringSeqTypeSupportImpl.cpp;CorbaSeq\StringSeqTypeSupportImpl.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|x64"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking ..\bin\opendds_idl on CorbaSeq\StringSeq.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\StringSeq.idl&quot;"
+						AdditionalDependencies="..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt"
+						Outputs="CorbaSeq\StringSeqTypeSupportImpl.cpp;CorbaSeq\StringSeqTypeSupportImpl.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|x64"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking ..\bin\opendds_idl on CorbaSeq\StringSeq.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\StringSeq.idl&quot;"
+						AdditionalDependencies="..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt"
+						Outputs="CorbaSeq\StringSeqTypeSupportImpl.cpp;CorbaSeq\StringSeqTypeSupportImpl.h"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="CorbaSeq\ULongLongSeq.idl">
+				<FileConfiguration
+					Name="Debug|Win32"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking ..\bin\opendds_idl on CorbaSeq\ULongLongSeq.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\ULongLongSeq.idl&quot;"
+						AdditionalDependencies="..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt"
+						Outputs="CorbaSeq\ULongLongSeqTypeSupportImpl.cpp;CorbaSeq\ULongLongSeqTypeSupportImpl.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking ..\bin\opendds_idl on CorbaSeq\ULongLongSeq.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\ULongLongSeq.idl&quot;"
+						AdditionalDependencies="..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt"
+						Outputs="CorbaSeq\ULongLongSeqTypeSupportImpl.cpp;CorbaSeq\ULongLongSeqTypeSupportImpl.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|x64"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking ..\bin\opendds_idl on CorbaSeq\ULongLongSeq.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\ULongLongSeq.idl&quot;"
+						AdditionalDependencies="..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt"
+						Outputs="CorbaSeq\ULongLongSeqTypeSupportImpl.cpp;CorbaSeq\ULongLongSeqTypeSupportImpl.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|x64"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking ..\bin\opendds_idl on CorbaSeq\ULongLongSeq.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\ULongLongSeq.idl&quot;"
+						AdditionalDependencies="..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt"
+						Outputs="CorbaSeq\ULongLongSeqTypeSupportImpl.cpp;CorbaSeq\ULongLongSeqTypeSupportImpl.h"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="CorbaSeq\ULongSeq.idl">
+				<FileConfiguration
+					Name="Debug|Win32"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking ..\bin\opendds_idl on CorbaSeq\ULongSeq.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\ULongSeq.idl&quot;"
+						AdditionalDependencies="..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt"
+						Outputs="CorbaSeq\ULongSeqTypeSupportImpl.cpp;CorbaSeq\ULongSeqTypeSupportImpl.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking ..\bin\opendds_idl on CorbaSeq\ULongSeq.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\ULongSeq.idl&quot;"
+						AdditionalDependencies="..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt"
+						Outputs="CorbaSeq\ULongSeqTypeSupportImpl.cpp;CorbaSeq\ULongSeqTypeSupportImpl.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|x64"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking ..\bin\opendds_idl on CorbaSeq\ULongSeq.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\ULongSeq.idl&quot;"
+						AdditionalDependencies="..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt"
+						Outputs="CorbaSeq\ULongSeqTypeSupportImpl.cpp;CorbaSeq\ULongSeqTypeSupportImpl.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|x64"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking ..\bin\opendds_idl on CorbaSeq\ULongSeq.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\ULongSeq.idl&quot;"
+						AdditionalDependencies="..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt"
+						Outputs="CorbaSeq\ULongSeqTypeSupportImpl.cpp;CorbaSeq\ULongSeqTypeSupportImpl.h"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="CorbaSeq\UShortSeq.idl">
+				<FileConfiguration
+					Name="Debug|Win32"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking ..\bin\opendds_idl on CorbaSeq\UShortSeq.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\UShortSeq.idl&quot;"
+						AdditionalDependencies="..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt"
+						Outputs="CorbaSeq\UShortSeqTypeSupportImpl.cpp;CorbaSeq\UShortSeqTypeSupportImpl.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking ..\bin\opendds_idl on CorbaSeq\UShortSeq.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\UShortSeq.idl&quot;"
+						AdditionalDependencies="..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt"
+						Outputs="CorbaSeq\UShortSeqTypeSupportImpl.cpp;CorbaSeq\UShortSeqTypeSupportImpl.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|x64"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking ..\bin\opendds_idl on CorbaSeq\UShortSeq.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\UShortSeq.idl&quot;"
+						AdditionalDependencies="..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt"
+						Outputs="CorbaSeq\UShortSeqTypeSupportImpl.cpp;CorbaSeq\UShortSeqTypeSupportImpl.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|x64"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking ..\bin\opendds_idl on CorbaSeq\UShortSeq.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\UShortSeq.idl&quot;"
+						AdditionalDependencies="..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt"
+						Outputs="CorbaSeq\UShortSeqTypeSupportImpl.cpp;CorbaSeq\UShortSeqTypeSupportImpl.h"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="CorbaSeq\WCharSeq.idl">
+				<FileConfiguration
+					Name="Debug|Win32"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking ..\bin\opendds_idl on CorbaSeq\WCharSeq.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\WCharSeq.idl&quot;"
+						AdditionalDependencies="..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt"
+						Outputs="CorbaSeq\WCharSeqTypeSupportImpl.cpp;CorbaSeq\WCharSeqTypeSupportImpl.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking ..\bin\opendds_idl on CorbaSeq\WCharSeq.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\WCharSeq.idl&quot;"
+						AdditionalDependencies="..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt"
+						Outputs="CorbaSeq\WCharSeqTypeSupportImpl.cpp;CorbaSeq\WCharSeqTypeSupportImpl.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|x64"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking ..\bin\opendds_idl on CorbaSeq\WCharSeq.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\WCharSeq.idl&quot;"
+						AdditionalDependencies="..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt"
+						Outputs="CorbaSeq\WCharSeqTypeSupportImpl.cpp;CorbaSeq\WCharSeqTypeSupportImpl.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|x64"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking ..\bin\opendds_idl on CorbaSeq\WCharSeq.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\WCharSeq.idl&quot;"
+						AdditionalDependencies="..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt"
+						Outputs="CorbaSeq\WCharSeqTypeSupportImpl.cpp;CorbaSeq\WCharSeqTypeSupportImpl.h"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="CorbaSeq\WStringSeq.idl">
+				<FileConfiguration
+					Name="Debug|Win32"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking ..\bin\opendds_idl on CorbaSeq\WStringSeq.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\WStringSeq.idl&quot;"
+						AdditionalDependencies="..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt"
+						Outputs="CorbaSeq\WStringSeqTypeSupportImpl.cpp;CorbaSeq\WStringSeqTypeSupportImpl.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking ..\bin\opendds_idl on CorbaSeq\WStringSeq.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\WStringSeq.idl&quot;"
+						AdditionalDependencies="..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt"
+						Outputs="CorbaSeq\WStringSeqTypeSupportImpl.cpp;CorbaSeq\WStringSeqTypeSupportImpl.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|x64"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking ..\bin\opendds_idl on CorbaSeq\WStringSeq.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\WStringSeq.idl&quot;"
+						AdditionalDependencies="..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt"
+						Outputs="CorbaSeq\WStringSeqTypeSupportImpl.cpp;CorbaSeq\WStringSeqTypeSupportImpl.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|x64"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking ..\bin\opendds_idl on CorbaSeq\WStringSeq.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;if not exist CorbaSeq mkdir CorbaSeq&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -o CorbaSeq -SI -Wb,tao_include_prefix=tao/ &quot;CorbaSeq\WStringSeq.idl&quot;"
+						AdditionalDependencies="..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt"
+						Outputs="CorbaSeq\WStringSeqTypeSupportImpl.cpp;CorbaSeq\WStringSeqTypeSupportImpl.h"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="DdsDcpsGuid.idl">
+				<FileConfiguration
+					Name="Debug|Win32"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking ..\bin\opendds_idl on DdsDcpsGuid.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SI &quot;DdsDcpsGuid.idl&quot;"
+						AdditionalDependencies="..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt"
+						Outputs="DdsDcpsGuidTypeSupportImpl.cpp;DdsDcpsGuidTypeSupportImpl.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking ..\bin\opendds_idl on DdsDcpsGuid.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SI &quot;DdsDcpsGuid.idl&quot;"
+						AdditionalDependencies="..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt"
+						Outputs="DdsDcpsGuidTypeSupportImpl.cpp;DdsDcpsGuidTypeSupportImpl.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|x64"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking ..\bin\opendds_idl on DdsDcpsGuid.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SI &quot;DdsDcpsGuid.idl&quot;"
+						AdditionalDependencies="..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt"
+						Outputs="DdsDcpsGuidTypeSupportImpl.cpp;DdsDcpsGuidTypeSupportImpl.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|x64"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking ..\bin\opendds_idl on DdsDcpsGuid.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SI &quot;DdsDcpsGuid.idl&quot;"
+						AdditionalDependencies="..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt"
+						Outputs="DdsDcpsGuidTypeSupportImpl.cpp;DdsDcpsGuidTypeSupportImpl.h"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="DdsDcpsInfoUtils.idl">
+				<FileConfiguration
+					Name="Debug|Win32"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking ..\bin\opendds_idl on DdsDcpsInfoUtils.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SI &quot;DdsDcpsInfoUtils.idl&quot;"
+						AdditionalDependencies="..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt"
+						Outputs="DdsDcpsInfoUtilsTypeSupportImpl.cpp;DdsDcpsInfoUtilsTypeSupportImpl.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking ..\bin\opendds_idl on DdsDcpsInfoUtils.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SI &quot;DdsDcpsInfoUtils.idl&quot;"
+						AdditionalDependencies="..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt"
+						Outputs="DdsDcpsInfoUtilsTypeSupportImpl.cpp;DdsDcpsInfoUtilsTypeSupportImpl.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|x64"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking ..\bin\opendds_idl on DdsDcpsInfoUtils.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SI &quot;DdsDcpsInfoUtils.idl&quot;"
+						AdditionalDependencies="..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt"
+						Outputs="DdsDcpsInfoUtilsTypeSupportImpl.cpp;DdsDcpsInfoUtilsTypeSupportImpl.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|x64"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking ..\bin\opendds_idl on DdsDcpsInfoUtils.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SI &quot;DdsDcpsInfoUtils.idl&quot;"
+						AdditionalDependencies="..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt"
+						Outputs="DdsDcpsInfoUtilsTypeSupportImpl.cpp;DdsDcpsInfoUtilsTypeSupportImpl.h"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="DdsDcpsInfrastructure.idl">
+				<FileConfiguration
+					Name="Debug|Win32"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking ..\bin\opendds_idl on DdsDcpsInfrastructure.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h &quot;DdsDcpsInfrastructure.idl&quot;"
+						AdditionalDependencies="..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt"
+						Outputs="DdsDcpsInfrastructureTypeSupport.idl;DdsDcpsInfrastructureTypeSupportImpl.cpp;DdsDcpsInfrastructureTypeSupportImpl.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking ..\bin\opendds_idl on DdsDcpsInfrastructure.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h &quot;DdsDcpsInfrastructure.idl&quot;"
+						AdditionalDependencies="..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt"
+						Outputs="DdsDcpsInfrastructureTypeSupport.idl;DdsDcpsInfrastructureTypeSupportImpl.cpp;DdsDcpsInfrastructureTypeSupportImpl.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|x64"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking ..\bin\opendds_idl on DdsDcpsInfrastructure.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h &quot;DdsDcpsInfrastructure.idl&quot;"
+						AdditionalDependencies="..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt"
+						Outputs="DdsDcpsInfrastructureTypeSupport.idl;DdsDcpsInfrastructureTypeSupportImpl.cpp;DdsDcpsInfrastructureTypeSupportImpl.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|x64"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking ..\bin\opendds_idl on DdsDcpsInfrastructure.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;..\bin\opendds_idl -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h &quot;DdsDcpsInfrastructure.idl&quot;"
+						AdditionalDependencies="..\bin\opendds_idl.exe;..\dds\idl\CPPTemplate.txt;..\dds\idl\HTemplate.txt;..\dds\idl\IDLTemplate.txt"
+						Outputs="DdsDcpsInfrastructureTypeSupport.idl;DdsDcpsInfrastructureTypeSupportImpl.cpp;DdsDcpsInfrastructureTypeSupportImpl.h"/>
+				</FileConfiguration>
+			</File>
+		</Filter>
+		<Filter
+			Name="Idl Files"
+			Filter="idl">
+			<File
+				RelativePath="DdsDcps.idl">
+				<FileConfiguration
+					Name="Debug|Win32"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking $(ACE_ROOT)\bin\tao_idl on DdsDcps.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -I.. -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. &quot;DdsDcps.idl&quot;"
+						AdditionalDependencies="$(ACE_ROOT)\bin\tao_idl.exe;$(ACE_ROOT)\lib\TAO_IDL_BEd.dll;$(ACE_ROOT)\lib\TAO_IDL_FEd.dll"
+						Outputs="DdsDcpsC.cpp;DdsDcpsC.h;DdsDcpsC.inl;DdsDcpsS.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking $(ACE_ROOT)\bin\tao_idl on DdsDcps.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -I.. -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. &quot;DdsDcps.idl&quot;"
+						AdditionalDependencies="$(ACE_ROOT)\bin\tao_idl.exe;$(ACE_ROOT)\lib\TAO_IDL_BE.dll;$(ACE_ROOT)\lib\TAO_IDL_FE.dll"
+						Outputs="DdsDcpsC.cpp;DdsDcpsC.h;DdsDcpsC.inl;DdsDcpsS.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|x64"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking $(ACE_ROOT)\bin\tao_idl on DdsDcps.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -I.. -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. &quot;DdsDcps.idl&quot;"
+						AdditionalDependencies="$(ACE_ROOT)\bin\tao_idl.exe;$(ACE_ROOT)\lib\TAO_IDL_BEd.dll;$(ACE_ROOT)\lib\TAO_IDL_FEd.dll"
+						Outputs="DdsDcpsC.cpp;DdsDcpsC.h;DdsDcpsC.inl;DdsDcpsS.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|x64"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking $(ACE_ROOT)\bin\tao_idl on DdsDcps.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -I.. -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. &quot;DdsDcps.idl&quot;"
+						AdditionalDependencies="$(ACE_ROOT)\bin\tao_idl.exe;$(ACE_ROOT)\lib\TAO_IDL_BE.dll;$(ACE_ROOT)\lib\TAO_IDL_FE.dll"
+						Outputs="DdsDcpsC.cpp;DdsDcpsC.h;DdsDcpsC.inl;DdsDcpsS.h"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="DdsDcpsDomain.idl">
+				<FileConfiguration
+					Name="Debug|Win32"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking $(ACE_ROOT)\bin\tao_idl on DdsDcpsDomain.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -I.. -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. &quot;DdsDcpsDomain.idl&quot;"
+						AdditionalDependencies="$(ACE_ROOT)\bin\tao_idl.exe;$(ACE_ROOT)\lib\TAO_IDL_BEd.dll;$(ACE_ROOT)\lib\TAO_IDL_FEd.dll"
+						Outputs="DdsDcpsDomainC.cpp;DdsDcpsDomainC.h;DdsDcpsDomainC.inl;DdsDcpsDomainS.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking $(ACE_ROOT)\bin\tao_idl on DdsDcpsDomain.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -I.. -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. &quot;DdsDcpsDomain.idl&quot;"
+						AdditionalDependencies="$(ACE_ROOT)\bin\tao_idl.exe;$(ACE_ROOT)\lib\TAO_IDL_BE.dll;$(ACE_ROOT)\lib\TAO_IDL_FE.dll"
+						Outputs="DdsDcpsDomainC.cpp;DdsDcpsDomainC.h;DdsDcpsDomainC.inl;DdsDcpsDomainS.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|x64"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking $(ACE_ROOT)\bin\tao_idl on DdsDcpsDomain.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -I.. -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. &quot;DdsDcpsDomain.idl&quot;"
+						AdditionalDependencies="$(ACE_ROOT)\bin\tao_idl.exe;$(ACE_ROOT)\lib\TAO_IDL_BEd.dll;$(ACE_ROOT)\lib\TAO_IDL_FEd.dll"
+						Outputs="DdsDcpsDomainC.cpp;DdsDcpsDomainC.h;DdsDcpsDomainC.inl;DdsDcpsDomainS.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|x64"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking $(ACE_ROOT)\bin\tao_idl on DdsDcpsDomain.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -I.. -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. &quot;DdsDcpsDomain.idl&quot;"
+						AdditionalDependencies="$(ACE_ROOT)\bin\tao_idl.exe;$(ACE_ROOT)\lib\TAO_IDL_BE.dll;$(ACE_ROOT)\lib\TAO_IDL_FE.dll"
+						Outputs="DdsDcpsDomainC.cpp;DdsDcpsDomainC.h;DdsDcpsDomainC.inl;DdsDcpsDomainS.h"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="DdsDcpsGuid.idl">
+				<FileConfiguration
+					Name="Debug|Win32"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking $(ACE_ROOT)\bin\tao_idl on DdsDcpsGuid.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -I.. -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. &quot;DdsDcpsGuid.idl&quot;"
+						AdditionalDependencies="$(ACE_ROOT)\bin\tao_idl.exe;$(ACE_ROOT)\lib\TAO_IDL_BEd.dll;$(ACE_ROOT)\lib\TAO_IDL_FEd.dll"
+						Outputs="DdsDcpsGuidC.cpp;DdsDcpsGuidC.h;DdsDcpsGuidC.inl;DdsDcpsGuidS.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking $(ACE_ROOT)\bin\tao_idl on DdsDcpsGuid.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -I.. -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. &quot;DdsDcpsGuid.idl&quot;"
+						AdditionalDependencies="$(ACE_ROOT)\bin\tao_idl.exe;$(ACE_ROOT)\lib\TAO_IDL_BE.dll;$(ACE_ROOT)\lib\TAO_IDL_FE.dll"
+						Outputs="DdsDcpsGuidC.cpp;DdsDcpsGuidC.h;DdsDcpsGuidC.inl;DdsDcpsGuidS.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|x64"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking $(ACE_ROOT)\bin\tao_idl on DdsDcpsGuid.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -I.. -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. &quot;DdsDcpsGuid.idl&quot;"
+						AdditionalDependencies="$(ACE_ROOT)\bin\tao_idl.exe;$(ACE_ROOT)\lib\TAO_IDL_BEd.dll;$(ACE_ROOT)\lib\TAO_IDL_FEd.dll"
+						Outputs="DdsDcpsGuidC.cpp;DdsDcpsGuidC.h;DdsDcpsGuidC.inl;DdsDcpsGuidS.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|x64"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking $(ACE_ROOT)\bin\tao_idl on DdsDcpsGuid.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -I.. -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. &quot;DdsDcpsGuid.idl&quot;"
+						AdditionalDependencies="$(ACE_ROOT)\bin\tao_idl.exe;$(ACE_ROOT)\lib\TAO_IDL_BE.dll;$(ACE_ROOT)\lib\TAO_IDL_FE.dll"
+						Outputs="DdsDcpsGuidC.cpp;DdsDcpsGuidC.h;DdsDcpsGuidC.inl;DdsDcpsGuidS.h"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="DdsDcpsInfoUtils.idl">
+				<FileConfiguration
+					Name="Debug|Win32"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking $(ACE_ROOT)\bin\tao_idl on DdsDcpsInfoUtils.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -I.. -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. &quot;DdsDcpsInfoUtils.idl&quot;"
+						AdditionalDependencies="$(ACE_ROOT)\bin\tao_idl.exe;$(ACE_ROOT)\lib\TAO_IDL_BEd.dll;$(ACE_ROOT)\lib\TAO_IDL_FEd.dll"
+						Outputs="DdsDcpsInfoUtilsC.cpp;DdsDcpsInfoUtilsC.h;DdsDcpsInfoUtilsC.inl;DdsDcpsInfoUtilsS.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking $(ACE_ROOT)\bin\tao_idl on DdsDcpsInfoUtils.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -I.. -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. &quot;DdsDcpsInfoUtils.idl&quot;"
+						AdditionalDependencies="$(ACE_ROOT)\bin\tao_idl.exe;$(ACE_ROOT)\lib\TAO_IDL_BE.dll;$(ACE_ROOT)\lib\TAO_IDL_FE.dll"
+						Outputs="DdsDcpsInfoUtilsC.cpp;DdsDcpsInfoUtilsC.h;DdsDcpsInfoUtilsC.inl;DdsDcpsInfoUtilsS.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|x64"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking $(ACE_ROOT)\bin\tao_idl on DdsDcpsInfoUtils.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -I.. -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. &quot;DdsDcpsInfoUtils.idl&quot;"
+						AdditionalDependencies="$(ACE_ROOT)\bin\tao_idl.exe;$(ACE_ROOT)\lib\TAO_IDL_BEd.dll;$(ACE_ROOT)\lib\TAO_IDL_FEd.dll"
+						Outputs="DdsDcpsInfoUtilsC.cpp;DdsDcpsInfoUtilsC.h;DdsDcpsInfoUtilsC.inl;DdsDcpsInfoUtilsS.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|x64"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking $(ACE_ROOT)\bin\tao_idl on DdsDcpsInfoUtils.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -I.. -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. &quot;DdsDcpsInfoUtils.idl&quot;"
+						AdditionalDependencies="$(ACE_ROOT)\bin\tao_idl.exe;$(ACE_ROOT)\lib\TAO_IDL_BE.dll;$(ACE_ROOT)\lib\TAO_IDL_FE.dll"
+						Outputs="DdsDcpsInfoUtilsC.cpp;DdsDcpsInfoUtilsC.h;DdsDcpsInfoUtilsC.inl;DdsDcpsInfoUtilsS.h"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="DdsDcpsInfrastructure.idl">
+				<FileConfiguration
+					Name="Debug|Win32"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking $(ACE_ROOT)\bin\tao_idl on DdsDcpsInfrastructure.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -I.. -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. &quot;DdsDcpsInfrastructure.idl&quot;"
+						AdditionalDependencies="$(ACE_ROOT)\bin\tao_idl.exe;$(ACE_ROOT)\lib\TAO_IDL_BEd.dll;$(ACE_ROOT)\lib\TAO_IDL_FEd.dll"
+						Outputs="DdsDcpsInfrastructureC.cpp;DdsDcpsInfrastructureC.h;DdsDcpsInfrastructureC.inl;DdsDcpsInfrastructureS.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking $(ACE_ROOT)\bin\tao_idl on DdsDcpsInfrastructure.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -I.. -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. &quot;DdsDcpsInfrastructure.idl&quot;"
+						AdditionalDependencies="$(ACE_ROOT)\bin\tao_idl.exe;$(ACE_ROOT)\lib\TAO_IDL_BE.dll;$(ACE_ROOT)\lib\TAO_IDL_FE.dll"
+						Outputs="DdsDcpsInfrastructureC.cpp;DdsDcpsInfrastructureC.h;DdsDcpsInfrastructureC.inl;DdsDcpsInfrastructureS.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|x64"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking $(ACE_ROOT)\bin\tao_idl on DdsDcpsInfrastructure.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -I.. -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. &quot;DdsDcpsInfrastructure.idl&quot;"
+						AdditionalDependencies="$(ACE_ROOT)\bin\tao_idl.exe;$(ACE_ROOT)\lib\TAO_IDL_BEd.dll;$(ACE_ROOT)\lib\TAO_IDL_FEd.dll"
+						Outputs="DdsDcpsInfrastructureC.cpp;DdsDcpsInfrastructureC.h;DdsDcpsInfrastructureC.inl;DdsDcpsInfrastructureS.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|x64"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking $(ACE_ROOT)\bin\tao_idl on DdsDcpsInfrastructure.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -I.. -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. &quot;DdsDcpsInfrastructure.idl&quot;"
+						AdditionalDependencies="$(ACE_ROOT)\bin\tao_idl.exe;$(ACE_ROOT)\lib\TAO_IDL_BE.dll;$(ACE_ROOT)\lib\TAO_IDL_FE.dll"
+						Outputs="DdsDcpsInfrastructureC.cpp;DdsDcpsInfrastructureC.h;DdsDcpsInfrastructureC.inl;DdsDcpsInfrastructureS.h"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="DdsDcpsInfrastructureTypeSupport.idl">
+				<FileConfiguration
+					Name="Debug|Win32"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking $(ACE_ROOT)\bin\tao_idl on DdsDcpsInfrastructureTypeSupport.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -I.. &quot;DdsDcpsInfrastructureTypeSupport.idl&quot;"
+						AdditionalDependencies="$(ACE_ROOT)\bin\tao_idl.exe;$(ACE_ROOT)\lib\TAO_IDL_BEd.dll;$(ACE_ROOT)\lib\TAO_IDL_FEd.dll"
+						Outputs="DdsDcpsInfrastructureTypeSupportC.cpp;DdsDcpsInfrastructureTypeSupportC.h;DdsDcpsInfrastructureTypeSupportC.inl;DdsDcpsInfrastructureTypeSupportS.cpp;DdsDcpsInfrastructureTypeSupportS.h;DdsDcpsInfrastructureTypeSupportS.inl"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking $(ACE_ROOT)\bin\tao_idl on DdsDcpsInfrastructureTypeSupport.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -I.. &quot;DdsDcpsInfrastructureTypeSupport.idl&quot;"
+						AdditionalDependencies="$(ACE_ROOT)\bin\tao_idl.exe;$(ACE_ROOT)\lib\TAO_IDL_BE.dll;$(ACE_ROOT)\lib\TAO_IDL_FE.dll"
+						Outputs="DdsDcpsInfrastructureTypeSupportC.cpp;DdsDcpsInfrastructureTypeSupportC.h;DdsDcpsInfrastructureTypeSupportC.inl;DdsDcpsInfrastructureTypeSupportS.cpp;DdsDcpsInfrastructureTypeSupportS.h;DdsDcpsInfrastructureTypeSupportS.inl"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|x64"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking $(ACE_ROOT)\bin\tao_idl on DdsDcpsInfrastructureTypeSupport.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -I.. &quot;DdsDcpsInfrastructureTypeSupport.idl&quot;"
+						AdditionalDependencies="$(ACE_ROOT)\bin\tao_idl.exe;$(ACE_ROOT)\lib\TAO_IDL_BEd.dll;$(ACE_ROOT)\lib\TAO_IDL_FEd.dll"
+						Outputs="DdsDcpsInfrastructureTypeSupportC.cpp;DdsDcpsInfrastructureTypeSupportC.h;DdsDcpsInfrastructureTypeSupportC.inl;DdsDcpsInfrastructureTypeSupportS.cpp;DdsDcpsInfrastructureTypeSupportS.h;DdsDcpsInfrastructureTypeSupportS.inl"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|x64"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking $(ACE_ROOT)\bin\tao_idl on DdsDcpsInfrastructureTypeSupport.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -I.. &quot;DdsDcpsInfrastructureTypeSupport.idl&quot;"
+						AdditionalDependencies="$(ACE_ROOT)\bin\tao_idl.exe;$(ACE_ROOT)\lib\TAO_IDL_BE.dll;$(ACE_ROOT)\lib\TAO_IDL_FE.dll"
+						Outputs="DdsDcpsInfrastructureTypeSupportC.cpp;DdsDcpsInfrastructureTypeSupportC.h;DdsDcpsInfrastructureTypeSupportC.inl;DdsDcpsInfrastructureTypeSupportS.cpp;DdsDcpsInfrastructureTypeSupportS.h;DdsDcpsInfrastructureTypeSupportS.inl"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="DdsDcpsPublication.idl">
+				<FileConfiguration
+					Name="Debug|Win32"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking $(ACE_ROOT)\bin\tao_idl on DdsDcpsPublication.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -I.. -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. &quot;DdsDcpsPublication.idl&quot;"
+						AdditionalDependencies="$(ACE_ROOT)\bin\tao_idl.exe;$(ACE_ROOT)\lib\TAO_IDL_BEd.dll;$(ACE_ROOT)\lib\TAO_IDL_FEd.dll"
+						Outputs="DdsDcpsPublicationC.cpp;DdsDcpsPublicationC.h;DdsDcpsPublicationC.inl;DdsDcpsPublicationS.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking $(ACE_ROOT)\bin\tao_idl on DdsDcpsPublication.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -I.. -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. &quot;DdsDcpsPublication.idl&quot;"
+						AdditionalDependencies="$(ACE_ROOT)\bin\tao_idl.exe;$(ACE_ROOT)\lib\TAO_IDL_BE.dll;$(ACE_ROOT)\lib\TAO_IDL_FE.dll"
+						Outputs="DdsDcpsPublicationC.cpp;DdsDcpsPublicationC.h;DdsDcpsPublicationC.inl;DdsDcpsPublicationS.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|x64"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking $(ACE_ROOT)\bin\tao_idl on DdsDcpsPublication.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -I.. -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. &quot;DdsDcpsPublication.idl&quot;"
+						AdditionalDependencies="$(ACE_ROOT)\bin\tao_idl.exe;$(ACE_ROOT)\lib\TAO_IDL_BEd.dll;$(ACE_ROOT)\lib\TAO_IDL_FEd.dll"
+						Outputs="DdsDcpsPublicationC.cpp;DdsDcpsPublicationC.h;DdsDcpsPublicationC.inl;DdsDcpsPublicationS.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|x64"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking $(ACE_ROOT)\bin\tao_idl on DdsDcpsPublication.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -I.. -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. &quot;DdsDcpsPublication.idl&quot;"
+						AdditionalDependencies="$(ACE_ROOT)\bin\tao_idl.exe;$(ACE_ROOT)\lib\TAO_IDL_BE.dll;$(ACE_ROOT)\lib\TAO_IDL_FE.dll"
+						Outputs="DdsDcpsPublicationC.cpp;DdsDcpsPublicationC.h;DdsDcpsPublicationC.inl;DdsDcpsPublicationS.h"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="DdsDcpsSubscription.idl">
+				<FileConfiguration
+					Name="Debug|Win32"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking $(ACE_ROOT)\bin\tao_idl on DdsDcpsSubscription.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -I.. -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. &quot;DdsDcpsSubscription.idl&quot;"
+						AdditionalDependencies="$(ACE_ROOT)\bin\tao_idl.exe;$(ACE_ROOT)\lib\TAO_IDL_BEd.dll;$(ACE_ROOT)\lib\TAO_IDL_FEd.dll"
+						Outputs="DdsDcpsSubscriptionC.cpp;DdsDcpsSubscriptionC.h;DdsDcpsSubscriptionC.inl;DdsDcpsSubscriptionS.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking $(ACE_ROOT)\bin\tao_idl on DdsDcpsSubscription.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -I.. -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. &quot;DdsDcpsSubscription.idl&quot;"
+						AdditionalDependencies="$(ACE_ROOT)\bin\tao_idl.exe;$(ACE_ROOT)\lib\TAO_IDL_BE.dll;$(ACE_ROOT)\lib\TAO_IDL_FE.dll"
+						Outputs="DdsDcpsSubscriptionC.cpp;DdsDcpsSubscriptionC.h;DdsDcpsSubscriptionC.inl;DdsDcpsSubscriptionS.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|x64"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking $(ACE_ROOT)\bin\tao_idl on DdsDcpsSubscription.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -I.. -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. &quot;DdsDcpsSubscription.idl&quot;"
+						AdditionalDependencies="$(ACE_ROOT)\bin\tao_idl.exe;$(ACE_ROOT)\lib\TAO_IDL_BEd.dll;$(ACE_ROOT)\lib\TAO_IDL_FEd.dll"
+						Outputs="DdsDcpsSubscriptionC.cpp;DdsDcpsSubscriptionC.h;DdsDcpsSubscriptionC.inl;DdsDcpsSubscriptionS.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|x64"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking $(ACE_ROOT)\bin\tao_idl on DdsDcpsSubscription.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -I.. -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. &quot;DdsDcpsSubscription.idl&quot;"
+						AdditionalDependencies="$(ACE_ROOT)\bin\tao_idl.exe;$(ACE_ROOT)\lib\TAO_IDL_BE.dll;$(ACE_ROOT)\lib\TAO_IDL_FE.dll"
+						Outputs="DdsDcpsSubscriptionC.cpp;DdsDcpsSubscriptionC.h;DdsDcpsSubscriptionC.inl;DdsDcpsSubscriptionS.h"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="DdsDcpsSubscriptionExt.idl">
+				<FileConfiguration
+					Name="Debug|Win32"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking $(ACE_ROOT)\bin\tao_idl on DdsDcpsSubscriptionExt.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -I.. -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. &quot;DdsDcpsSubscriptionExt.idl&quot;"
+						AdditionalDependencies="$(ACE_ROOT)\bin\tao_idl.exe;$(ACE_ROOT)\lib\TAO_IDL_BEd.dll;$(ACE_ROOT)\lib\TAO_IDL_FEd.dll"
+						Outputs="DdsDcpsSubscriptionExtC.cpp;DdsDcpsSubscriptionExtC.h;DdsDcpsSubscriptionExtC.inl;DdsDcpsSubscriptionExtS.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking $(ACE_ROOT)\bin\tao_idl on DdsDcpsSubscriptionExt.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -I.. -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. &quot;DdsDcpsSubscriptionExt.idl&quot;"
+						AdditionalDependencies="$(ACE_ROOT)\bin\tao_idl.exe;$(ACE_ROOT)\lib\TAO_IDL_BE.dll;$(ACE_ROOT)\lib\TAO_IDL_FE.dll"
+						Outputs="DdsDcpsSubscriptionExtC.cpp;DdsDcpsSubscriptionExtC.h;DdsDcpsSubscriptionExtC.inl;DdsDcpsSubscriptionExtS.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|x64"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking $(ACE_ROOT)\bin\tao_idl on DdsDcpsSubscriptionExt.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -I.. -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. &quot;DdsDcpsSubscriptionExt.idl&quot;"
+						AdditionalDependencies="$(ACE_ROOT)\bin\tao_idl.exe;$(ACE_ROOT)\lib\TAO_IDL_BEd.dll;$(ACE_ROOT)\lib\TAO_IDL_FEd.dll"
+						Outputs="DdsDcpsSubscriptionExtC.cpp;DdsDcpsSubscriptionExtC.h;DdsDcpsSubscriptionExtC.inl;DdsDcpsSubscriptionExtS.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|x64"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking $(ACE_ROOT)\bin\tao_idl on DdsDcpsSubscriptionExt.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -I.. -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. &quot;DdsDcpsSubscriptionExt.idl&quot;"
+						AdditionalDependencies="$(ACE_ROOT)\bin\tao_idl.exe;$(ACE_ROOT)\lib\TAO_IDL_BE.dll;$(ACE_ROOT)\lib\TAO_IDL_FE.dll"
+						Outputs="DdsDcpsSubscriptionExtC.cpp;DdsDcpsSubscriptionExtC.h;DdsDcpsSubscriptionExtC.inl;DdsDcpsSubscriptionExtS.h"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="DdsDcpsTopic.idl">
+				<FileConfiguration
+					Name="Debug|Win32"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking $(ACE_ROOT)\bin\tao_idl on DdsDcpsTopic.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -I.. -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. &quot;DdsDcpsTopic.idl&quot;"
+						AdditionalDependencies="$(ACE_ROOT)\bin\tao_idl.exe;$(ACE_ROOT)\lib\TAO_IDL_BEd.dll;$(ACE_ROOT)\lib\TAO_IDL_FEd.dll"
+						Outputs="DdsDcpsTopicC.cpp;DdsDcpsTopicC.h;DdsDcpsTopicC.inl;DdsDcpsTopicS.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking $(ACE_ROOT)\bin\tao_idl on DdsDcpsTopic.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -I.. -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. &quot;DdsDcpsTopic.idl&quot;"
+						AdditionalDependencies="$(ACE_ROOT)\bin\tao_idl.exe;$(ACE_ROOT)\lib\TAO_IDL_BE.dll;$(ACE_ROOT)\lib\TAO_IDL_FE.dll"
+						Outputs="DdsDcpsTopicC.cpp;DdsDcpsTopicC.h;DdsDcpsTopicC.inl;DdsDcpsTopicS.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|x64"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking $(ACE_ROOT)\bin\tao_idl on DdsDcpsTopic.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -I.. -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. &quot;DdsDcpsTopic.idl&quot;"
+						AdditionalDependencies="$(ACE_ROOT)\bin\tao_idl.exe;$(ACE_ROOT)\lib\TAO_IDL_BEd.dll;$(ACE_ROOT)\lib\TAO_IDL_FEd.dll"
+						Outputs="DdsDcpsTopicC.cpp;DdsDcpsTopicC.h;DdsDcpsTopicC.inl;DdsDcpsTopicS.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|x64"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking $(ACE_ROOT)\bin\tao_idl on DdsDcpsTopic.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -I.. -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. &quot;DdsDcpsTopic.idl&quot;"
+						AdditionalDependencies="$(ACE_ROOT)\bin\tao_idl.exe;$(ACE_ROOT)\lib\TAO_IDL_BE.dll;$(ACE_ROOT)\lib\TAO_IDL_FE.dll"
+						Outputs="DdsDcpsTopicC.cpp;DdsDcpsTopicC.h;DdsDcpsTopicC.inl;DdsDcpsTopicS.h"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="DdsDcpsTypeSupportExt.idl">
+				<FileConfiguration
+					Name="Debug|Win32"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking $(ACE_ROOT)\bin\tao_idl on DdsDcpsTypeSupportExt.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -I.. -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. &quot;DdsDcpsTypeSupportExt.idl&quot;"
+						AdditionalDependencies="$(ACE_ROOT)\bin\tao_idl.exe;$(ACE_ROOT)\lib\TAO_IDL_BEd.dll;$(ACE_ROOT)\lib\TAO_IDL_FEd.dll"
+						Outputs="DdsDcpsTypeSupportExtC.cpp;DdsDcpsTypeSupportExtC.h;DdsDcpsTypeSupportExtC.inl;DdsDcpsTypeSupportExtS.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking $(ACE_ROOT)\bin\tao_idl on DdsDcpsTypeSupportExt.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -I.. -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. &quot;DdsDcpsTypeSupportExt.idl&quot;"
+						AdditionalDependencies="$(ACE_ROOT)\bin\tao_idl.exe;$(ACE_ROOT)\lib\TAO_IDL_BE.dll;$(ACE_ROOT)\lib\TAO_IDL_FE.dll"
+						Outputs="DdsDcpsTypeSupportExtC.cpp;DdsDcpsTypeSupportExtC.h;DdsDcpsTypeSupportExtC.inl;DdsDcpsTypeSupportExtS.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|x64"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking $(ACE_ROOT)\bin\tao_idl on DdsDcpsTypeSupportExt.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -I.. -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. &quot;DdsDcpsTypeSupportExt.idl&quot;"
+						AdditionalDependencies="$(ACE_ROOT)\bin\tao_idl.exe;$(ACE_ROOT)\lib\TAO_IDL_BEd.dll;$(ACE_ROOT)\lib\TAO_IDL_FEd.dll"
+						Outputs="DdsDcpsTypeSupportExtC.cpp;DdsDcpsTypeSupportExtC.h;DdsDcpsTypeSupportExtC.inl;DdsDcpsTypeSupportExtS.h"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|x64"
+				>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Invoking $(ACE_ROOT)\bin\tao_idl on DdsDcpsTypeSupportExt.idl"
+						CommandLine="PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -I.. -Sa -St -Wb,pch_include=DCPS/DdsDcps_pch.h -Wb,export_macro=OpenDDS_Dcps_Export -Wb,export_include=dds/DCPS/dcps_export.h -SS -I.. &quot;DdsDcpsTypeSupportExt.idl&quot;"
+						AdditionalDependencies="$(ACE_ROOT)\bin\tao_idl.exe;$(ACE_ROOT)\lib\TAO_IDL_BE.dll;$(ACE_ROOT)\lib\TAO_IDL_FE.dll"
+						Outputs="DdsDcpsTypeSupportExtC.cpp;DdsDcpsTypeSupportExtC.h;DdsDcpsTypeSupportExtC.inl;DdsDcpsTypeSupportExtS.h"/>
+				</FileConfiguration>
+			</File>
+		</Filter>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

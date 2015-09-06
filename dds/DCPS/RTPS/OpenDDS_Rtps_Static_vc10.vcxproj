@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>OpenDDS_Rtps_Static_vc10</ProjectName>
+    <ProjectGuid>{EA90F3A1-FECA-1BAD-5371-8A64657840E3}</ProjectGuid>
+    <RootNamespace>OpenDDS_Rtps_Static_vc10</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v100</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v100</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\..\lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Static_Debug\OpenDDS_Rtps_Static_vc10\I386\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">OpenDDS_Rtpssd</TargetName>
+    <LocalDebuggerCommandArguments Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"></LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)</LocalDebuggerWorkingDirectory>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\..\lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Static_Release\OpenDDS_Rtps_Static_vc10\I386\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">OpenDDS_Rtpss</TargetName>
+    <LocalDebuggerCommandArguments Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"></LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)</LocalDebuggerWorkingDirectory>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">..\..\..\lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Static_Debug\OpenDDS_Rtps_Static_vc10\AMD64\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">OpenDDS_Rtpssd</TargetName>
+    <LocalDebuggerCommandArguments Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)</LocalDebuggerWorkingDirectory>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">..\..\..\lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Static_Release\OpenDDS_Rtps_Static_vc10\AMD64\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">OpenDDS_Rtpss</TargetName>
+    <LocalDebuggerCommandArguments Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)</LocalDebuggerWorkingDirectory>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(ACE_ROOT);$(TAO_ROOT);..\..\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>ACE_AS_STATIC_LIBS;TAO_AS_STATIC_LIBS;_DEBUG;WIN32;_WINDOWS;_CRT_NONSTDC_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;MPC_LIB_MODIFIER=&quot;sd&quot;;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <DisableSpecificWarnings>4355;4250;4290;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>1033</Culture>
+      <AdditionalIncludeDirectories>$(ACE_ROOT);$(TAO_ROOT);..\..\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>..\..\..\lib\OpenDDS_Rtpssd.lib</OutputFile>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>.;$(ACE_ROOT)\lib;..\..\..\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Lib>
+<!-- "postclean" was made-up by MPC for use by vs_postclean.pl.
+     Check if msbuild has any support for a custom post-cleaning step
+ -->
+<!-- No known equivalent for DeploymentTool in vc10:
+-->
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>$(ACE_ROOT);$(TAO_ROOT);..\..\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>ACE_AS_STATIC_LIBS;TAO_AS_STATIC_LIBS;NDEBUG;WIN32;_WINDOWS;_CRT_NONSTDC_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;MPC_LIB_MODIFIER=&quot;s&quot;;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <DisableSpecificWarnings>4355;4250;4290;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>1033</Culture>
+      <AdditionalIncludeDirectories>$(ACE_ROOT);$(TAO_ROOT);..\..\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>..\..\..\lib\OpenDDS_Rtpss.lib</OutputFile>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>.;$(ACE_ROOT)\lib;..\..\..\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Lib>
+<!-- "postclean" was made-up by MPC for use by vs_postclean.pl.
+     Check if msbuild has any support for a custom post-cleaning step
+ -->
+<!-- No known equivalent for DeploymentTool in vc10:
+-->
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <TargetEnvironment>x64</TargetEnvironment>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(ACE_ROOT);$(TAO_ROOT);..\..\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>ACE_AS_STATIC_LIBS;TAO_AS_STATIC_LIBS;_DEBUG;WIN32;_WINDOWS;_CRT_NONSTDC_NO_WARNINGS;_AMD64_;_WIN64;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;MPC_LIB_MODIFIER=&quot;sd&quot;;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <DisableSpecificWarnings>4355;4250;4290;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_WIN64;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>1033</Culture>
+      <AdditionalIncludeDirectories>$(ACE_ROOT);$(TAO_ROOT);..\..\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>..\..\..\lib\OpenDDS_Rtpssd.lib</OutputFile>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>.;$(ACE_ROOT)\lib;..\..\..\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+<!--
+  Though we can set TargetMachine explicitly, VC++
+  can figure it out by project type. We don't need
+  to set it by ourselves.
+-->
+<!--      <TargetMachine>0</TargetMachine>-->
+    </Lib>
+<!-- "postclean" was made-up by MPC for use by vs_postclean.pl.
+     Check if msbuild has any support for a custom post-cleaning step
+ -->
+<!-- No known equivalent for DeploymentTool in vc10:
+-->
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <TargetEnvironment>x64</TargetEnvironment>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>$(ACE_ROOT);$(TAO_ROOT);..\..\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>ACE_AS_STATIC_LIBS;TAO_AS_STATIC_LIBS;NDEBUG;WIN32;_WINDOWS;_CRT_NONSTDC_NO_WARNINGS;_AMD64_;_WIN64;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;MPC_LIB_MODIFIER=&quot;s&quot;;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <DisableSpecificWarnings>4355;4250;4290;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_WIN64;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>1033</Culture>
+      <AdditionalIncludeDirectories>$(ACE_ROOT);$(TAO_ROOT);..\..\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Lib>
+      <OutputFile>..\..\..\lib\OpenDDS_Rtpss.lib</OutputFile>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>.;$(ACE_ROOT)\lib;..\..\..\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+<!--
+  Though we can set TargetMachine explicitly, VC++
+  can figure it out by project type. We don't need
+  to set it by ourselves.
+-->
+<!--      <TargetMachine>0</TargetMachine>-->
+    </Lib>
+<!-- "postclean" was made-up by MPC for use by vs_postclean.pl.
+     Check if msbuild has any support for a custom post-cleaning step
+ -->
+<!-- No known equivalent for DeploymentTool in vc10:
+-->
+  </ItemDefinitionGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GuidGenerator.cpp">
+    </ClCompile>
+    <ClCompile Include="md5.cpp">
+    </ClCompile>
+    <ClCompile Include="ParameterListConverter.cpp">
+    </ClCompile>
+    <ClCompile Include="RtpsBaseMessageTypesC.cpp">
+    </ClCompile>
+    <ClCompile Include="RtpsBaseMessageTypesS.cpp">
+    </ClCompile>
+    <ClCompile Include="RtpsBaseMessageTypesTypeSupportC.cpp">
+    </ClCompile>
+    <ClCompile Include="RtpsBaseMessageTypesTypeSupportImpl.cpp">
+    </ClCompile>
+    <ClCompile Include="RtpsBaseMessageTypesTypeSupportS.cpp">
+    </ClCompile>
+    <ClCompile Include="RtpsDiscovery.cpp">
+    </ClCompile>
+    <ClCompile Include="RtpsMessageTypesC.cpp">
+    </ClCompile>
+    <ClCompile Include="RtpsMessageTypesS.cpp">
+    </ClCompile>
+    <ClCompile Include="RtpsMessageTypesTypeSupportC.cpp">
+    </ClCompile>
+    <ClCompile Include="RtpsMessageTypesTypeSupportImpl.cpp">
+    </ClCompile>
+    <ClCompile Include="RtpsMessageTypesTypeSupportS.cpp">
+    </ClCompile>
+    <ClCompile Include="Sedp.cpp">
+    </ClCompile>
+    <ClCompile Include="Spdp.cpp">
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BaseMessageTypes.h" />
+    <ClInclude Include="BaseMessageUtils.h" />
+    <ClInclude Include="GuidGenerator.h" />
+    <ClInclude Include="md5.h" />
+    <ClInclude Include="MessageTypes.h" />
+    <ClInclude Include="ParameterListConverter.h" />
+    <ClInclude Include="rtps_export.h" />
+    <ClInclude Include="RtpsBaseMessageTypesC.h" />
+    <ClInclude Include="RtpsBaseMessageTypesS.h" />
+    <ClInclude Include="RtpsBaseMessageTypesTypeSupportC.h" />
+    <ClInclude Include="RtpsBaseMessageTypesTypeSupportImpl.h" />
+    <ClInclude Include="RtpsBaseMessageTypesTypeSupportS.h" />
+    <ClInclude Include="RtpsDiscovery.h" />
+    <ClInclude Include="RtpsMessageTypesC.h" />
+    <ClInclude Include="RtpsMessageTypesS.h" />
+    <ClInclude Include="RtpsMessageTypesTypeSupportC.h" />
+    <ClInclude Include="RtpsMessageTypesTypeSupportImpl.h" />
+    <ClInclude Include="RtpsMessageTypesTypeSupportS.h" />
+    <ClInclude Include="Sedp.h" />
+    <ClInclude Include="Spdp.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="rtps.mpc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="RtpsBaseMessageTypesTypeSupport.idl">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Sa -St -I..\..\.. -Wb,export_macro=OpenDDS_Rtps_Export -Wb,export_include=rtps_export.h &quot;RtpsBaseMessageTypesTypeSupport.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Invoking "$(ACE_ROOT)\bin\tao_idl on RtpsBaseMessageTypesTypeSupport.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">RtpsBaseMessageTypesTypeSupportC.cpp;RtpsBaseMessageTypesTypeSupportC.h;RtpsBaseMessageTypesTypeSupportC.inl;RtpsBaseMessageTypesTypeSupportS.cpp;RtpsBaseMessageTypesTypeSupportS.h;RtpsBaseMessageTypesTypeSupportS.inl</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ACE_ROOT)\bin\tao_idl.exe</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Sa -St -I..\..\.. -Wb,export_macro=OpenDDS_Rtps_Export -Wb,export_include=rtps_export.h &quot;RtpsBaseMessageTypesTypeSupport.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Invoking "$(ACE_ROOT)\bin\tao_idl on RtpsBaseMessageTypesTypeSupport.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">RtpsBaseMessageTypesTypeSupportC.cpp;RtpsBaseMessageTypesTypeSupportC.h;RtpsBaseMessageTypesTypeSupportC.inl;RtpsBaseMessageTypesTypeSupportS.cpp;RtpsBaseMessageTypesTypeSupportS.h;RtpsBaseMessageTypesTypeSupportS.inl</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ACE_ROOT)\bin\tao_idl.exe</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Sa -St -I..\..\.. -Wb,export_macro=OpenDDS_Rtps_Export -Wb,export_include=rtps_export.h &quot;RtpsBaseMessageTypesTypeSupport.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Invoking "$(ACE_ROOT)\bin\tao_idl on RtpsBaseMessageTypesTypeSupport.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">RtpsBaseMessageTypesTypeSupportC.cpp;RtpsBaseMessageTypesTypeSupportC.h;RtpsBaseMessageTypesTypeSupportC.inl;RtpsBaseMessageTypesTypeSupportS.cpp;RtpsBaseMessageTypesTypeSupportS.h;RtpsBaseMessageTypesTypeSupportS.inl</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ACE_ROOT)\bin\tao_idl.exe</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Sa -St -I..\..\.. -Wb,export_macro=OpenDDS_Rtps_Export -Wb,export_include=rtps_export.h &quot;RtpsBaseMessageTypesTypeSupport.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Invoking "$(ACE_ROOT)\bin\tao_idl on RtpsBaseMessageTypesTypeSupport.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">RtpsBaseMessageTypesTypeSupportC.cpp;RtpsBaseMessageTypesTypeSupportC.h;RtpsBaseMessageTypesTypeSupportC.inl;RtpsBaseMessageTypesTypeSupportS.cpp;RtpsBaseMessageTypesTypeSupportS.h;RtpsBaseMessageTypesTypeSupportS.inl</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ACE_ROOT)\bin\tao_idl.exe</AdditionalInputs>
+    </CustomBuild>
+    <CustomBuild Include="RtpsMessageTypesTypeSupport.idl">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Sa -St -I..\..\.. -Wb,export_macro=OpenDDS_Rtps_Export -Wb,export_include=rtps_export.h &quot;RtpsMessageTypesTypeSupport.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Invoking "$(ACE_ROOT)\bin\tao_idl on RtpsMessageTypesTypeSupport.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">RtpsMessageTypesTypeSupportC.cpp;RtpsMessageTypesTypeSupportC.h;RtpsMessageTypesTypeSupportC.inl;RtpsMessageTypesTypeSupportS.cpp;RtpsMessageTypesTypeSupportS.h;RtpsMessageTypesTypeSupportS.inl</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ACE_ROOT)\bin\tao_idl.exe</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Sa -St -I..\..\.. -Wb,export_macro=OpenDDS_Rtps_Export -Wb,export_include=rtps_export.h &quot;RtpsMessageTypesTypeSupport.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Invoking "$(ACE_ROOT)\bin\tao_idl on RtpsMessageTypesTypeSupport.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">RtpsMessageTypesTypeSupportC.cpp;RtpsMessageTypesTypeSupportC.h;RtpsMessageTypesTypeSupportC.inl;RtpsMessageTypesTypeSupportS.cpp;RtpsMessageTypesTypeSupportS.h;RtpsMessageTypesTypeSupportS.inl</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ACE_ROOT)\bin\tao_idl.exe</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Sa -St -I..\..\.. -Wb,export_macro=OpenDDS_Rtps_Export -Wb,export_include=rtps_export.h &quot;RtpsMessageTypesTypeSupport.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Invoking "$(ACE_ROOT)\bin\tao_idl on RtpsMessageTypesTypeSupport.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">RtpsMessageTypesTypeSupportC.cpp;RtpsMessageTypesTypeSupportC.h;RtpsMessageTypesTypeSupportC.inl;RtpsMessageTypesTypeSupportS.cpp;RtpsMessageTypesTypeSupportS.h;RtpsMessageTypesTypeSupportS.inl</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ACE_ROOT)\bin\tao_idl.exe</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Sa -St -I..\..\.. -Wb,export_macro=OpenDDS_Rtps_Export -Wb,export_include=rtps_export.h &quot;RtpsMessageTypesTypeSupport.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Invoking "$(ACE_ROOT)\bin\tao_idl on RtpsMessageTypesTypeSupport.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">RtpsMessageTypesTypeSupportC.cpp;RtpsMessageTypesTypeSupportC.h;RtpsMessageTypesTypeSupportC.inl;RtpsMessageTypesTypeSupportS.cpp;RtpsMessageTypesTypeSupportS.h;RtpsMessageTypesTypeSupportS.inl</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ACE_ROOT)\bin\tao_idl.exe</AdditionalInputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="RtpsBaseMessageTypes.idl">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Sa -St -I..\..\.. -Wb,export_macro=OpenDDS_Rtps_Export -Wb,export_include=rtps_export.h &quot;RtpsBaseMessageTypes.idl&quot; &amp;&amp; ..\..\..\bin\opendds_idl -Wb,export_macro=OpenDDS_Rtps_Export -Wb,export_include=rtps_export.h &quot;RtpsBaseMessageTypes.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Invoking "$(ACE_ROOT)\bin\tao_idl and ..\..\..\bin\opendds_idl on RtpsBaseMessageTypes.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">RtpsBaseMessageTypesC.cpp;RtpsBaseMessageTypesC.h;RtpsBaseMessageTypesC.inl;RtpsBaseMessageTypesS.cpp;RtpsBaseMessageTypesS.h;RtpsBaseMessageTypesS.inl;RtpsBaseMessageTypesTypeSupport.idl;RtpsBaseMessageTypesTypeSupportImpl.cpp;RtpsBaseMessageTypesTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ACE_ROOT)\bin\tao_idl.exe;..\..\..\bin\opendds_idl.exe;..\..\..\dds\idl\CPPTemplate.txt;..\..\..\dds\idl\HTemplate.txt;..\..\..\dds\idl\IDLTemplate.txt</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Sa -St -I..\..\.. -Wb,export_macro=OpenDDS_Rtps_Export -Wb,export_include=rtps_export.h &quot;RtpsBaseMessageTypes.idl&quot; &amp;&amp; ..\..\..\bin\opendds_idl -Wb,export_macro=OpenDDS_Rtps_Export -Wb,export_include=rtps_export.h &quot;RtpsBaseMessageTypes.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Invoking "$(ACE_ROOT)\bin\tao_idl and ..\..\..\bin\opendds_idl on RtpsBaseMessageTypes.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">RtpsBaseMessageTypesC.cpp;RtpsBaseMessageTypesC.h;RtpsBaseMessageTypesC.inl;RtpsBaseMessageTypesS.cpp;RtpsBaseMessageTypesS.h;RtpsBaseMessageTypesS.inl;RtpsBaseMessageTypesTypeSupport.idl;RtpsBaseMessageTypesTypeSupportImpl.cpp;RtpsBaseMessageTypesTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ACE_ROOT)\bin\tao_idl.exe;..\..\..\bin\opendds_idl.exe;..\..\..\dds\idl\CPPTemplate.txt;..\..\..\dds\idl\HTemplate.txt;..\..\..\dds\idl\IDLTemplate.txt</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Sa -St -I..\..\.. -Wb,export_macro=OpenDDS_Rtps_Export -Wb,export_include=rtps_export.h &quot;RtpsBaseMessageTypes.idl&quot; &amp;&amp; ..\..\..\bin\opendds_idl -Wb,export_macro=OpenDDS_Rtps_Export -Wb,export_include=rtps_export.h &quot;RtpsBaseMessageTypes.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Invoking "$(ACE_ROOT)\bin\tao_idl and ..\..\..\bin\opendds_idl on RtpsBaseMessageTypes.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">RtpsBaseMessageTypesC.cpp;RtpsBaseMessageTypesC.h;RtpsBaseMessageTypesC.inl;RtpsBaseMessageTypesS.cpp;RtpsBaseMessageTypesS.h;RtpsBaseMessageTypesS.inl;RtpsBaseMessageTypesTypeSupport.idl;RtpsBaseMessageTypesTypeSupportImpl.cpp;RtpsBaseMessageTypesTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ACE_ROOT)\bin\tao_idl.exe;..\..\..\bin\opendds_idl.exe;..\..\..\dds\idl\CPPTemplate.txt;..\..\..\dds\idl\HTemplate.txt;..\..\..\dds\idl\IDLTemplate.txt</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Sa -St -I..\..\.. -Wb,export_macro=OpenDDS_Rtps_Export -Wb,export_include=rtps_export.h &quot;RtpsBaseMessageTypes.idl&quot; &amp;&amp; ..\..\..\bin\opendds_idl -Wb,export_macro=OpenDDS_Rtps_Export -Wb,export_include=rtps_export.h &quot;RtpsBaseMessageTypes.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Invoking "$(ACE_ROOT)\bin\tao_idl and ..\..\..\bin\opendds_idl on RtpsBaseMessageTypes.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">RtpsBaseMessageTypesC.cpp;RtpsBaseMessageTypesC.h;RtpsBaseMessageTypesC.inl;RtpsBaseMessageTypesS.cpp;RtpsBaseMessageTypesS.h;RtpsBaseMessageTypesS.inl;RtpsBaseMessageTypesTypeSupport.idl;RtpsBaseMessageTypesTypeSupportImpl.cpp;RtpsBaseMessageTypesTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ACE_ROOT)\bin\tao_idl.exe;..\..\..\bin\opendds_idl.exe;..\..\..\dds\idl\CPPTemplate.txt;..\..\..\dds\idl\HTemplate.txt;..\..\..\dds\idl\IDLTemplate.txt</AdditionalInputs>
+    </CustomBuild>
+    <CustomBuild Include="RtpsMessageTypes.idl">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Sa -St -I..\..\.. -Wb,export_macro=OpenDDS_Rtps_Export -Wb,export_include=rtps_export.h &quot;RtpsMessageTypes.idl&quot; &amp;&amp; ..\..\..\bin\opendds_idl -Wb,export_macro=OpenDDS_Rtps_Export -Wb,export_include=rtps_export.h &quot;RtpsMessageTypes.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Invoking "$(ACE_ROOT)\bin\tao_idl and ..\..\..\bin\opendds_idl on RtpsMessageTypes.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">RtpsMessageTypesC.cpp;RtpsMessageTypesC.h;RtpsMessageTypesC.inl;RtpsMessageTypesS.cpp;RtpsMessageTypesS.h;RtpsMessageTypesS.inl;RtpsMessageTypesTypeSupport.idl;RtpsMessageTypesTypeSupportImpl.cpp;RtpsMessageTypesTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ACE_ROOT)\bin\tao_idl.exe;..\..\..\bin\opendds_idl.exe;..\..\..\dds\idl\CPPTemplate.txt;..\..\..\dds\idl\HTemplate.txt;..\..\..\dds\idl\IDLTemplate.txt</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Sa -St -I..\..\.. -Wb,export_macro=OpenDDS_Rtps_Export -Wb,export_include=rtps_export.h &quot;RtpsMessageTypes.idl&quot; &amp;&amp; ..\..\..\bin\opendds_idl -Wb,export_macro=OpenDDS_Rtps_Export -Wb,export_include=rtps_export.h &quot;RtpsMessageTypes.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Invoking "$(ACE_ROOT)\bin\tao_idl and ..\..\..\bin\opendds_idl on RtpsMessageTypes.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">RtpsMessageTypesC.cpp;RtpsMessageTypesC.h;RtpsMessageTypesC.inl;RtpsMessageTypesS.cpp;RtpsMessageTypesS.h;RtpsMessageTypesS.inl;RtpsMessageTypesTypeSupport.idl;RtpsMessageTypesTypeSupportImpl.cpp;RtpsMessageTypesTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ACE_ROOT)\bin\tao_idl.exe;..\..\..\bin\opendds_idl.exe;..\..\..\dds\idl\CPPTemplate.txt;..\..\..\dds\idl\HTemplate.txt;..\..\..\dds\idl\IDLTemplate.txt</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Sa -St -I..\..\.. -Wb,export_macro=OpenDDS_Rtps_Export -Wb,export_include=rtps_export.h &quot;RtpsMessageTypes.idl&quot; &amp;&amp; ..\..\..\bin\opendds_idl -Wb,export_macro=OpenDDS_Rtps_Export -Wb,export_include=rtps_export.h &quot;RtpsMessageTypes.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Invoking "$(ACE_ROOT)\bin\tao_idl and ..\..\..\bin\opendds_idl on RtpsMessageTypes.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">RtpsMessageTypesC.cpp;RtpsMessageTypesC.h;RtpsMessageTypesC.inl;RtpsMessageTypesS.cpp;RtpsMessageTypesS.h;RtpsMessageTypesS.inl;RtpsMessageTypesTypeSupport.idl;RtpsMessageTypesTypeSupportImpl.cpp;RtpsMessageTypesTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ACE_ROOT)\bin\tao_idl.exe;..\..\..\bin\opendds_idl.exe;..\..\..\dds\idl\CPPTemplate.txt;..\..\..\dds\idl\HTemplate.txt;..\..\..\dds\idl\IDLTemplate.txt</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Sa -St -I..\..\.. -Wb,export_macro=OpenDDS_Rtps_Export -Wb,export_include=rtps_export.h &quot;RtpsMessageTypes.idl&quot; &amp;&amp; ..\..\..\bin\opendds_idl -Wb,export_macro=OpenDDS_Rtps_Export -Wb,export_include=rtps_export.h &quot;RtpsMessageTypes.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Invoking "$(ACE_ROOT)\bin\tao_idl and ..\..\..\bin\opendds_idl on RtpsMessageTypes.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">RtpsMessageTypesC.cpp;RtpsMessageTypesC.h;RtpsMessageTypesC.inl;RtpsMessageTypesS.cpp;RtpsMessageTypesS.h;RtpsMessageTypesS.inl;RtpsMessageTypesTypeSupport.idl;RtpsMessageTypesTypeSupportImpl.cpp;RtpsMessageTypesTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ACE_ROOT)\bin\tao_idl.exe;..\..\..\bin\opendds_idl.exe;..\..\..\dds\idl\CPPTemplate.txt;..\..\..\dds\idl\HTemplate.txt;..\..\..\dds\idl\IDLTemplate.txt</AdditionalInputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="RtpsBaseMessageTypesC.inl" />
+    <None Include="RtpsBaseMessageTypesS.inl" />
+    <None Include="RtpsBaseMessageTypesTypeSupportC.inl" />
+    <None Include="RtpsBaseMessageTypesTypeSupportS.inl" />
+    <None Include="RtpsMessageTypesC.inl" />
+    <None Include="RtpsMessageTypesS.inl" />
+    <None Include="RtpsMessageTypesTypeSupportC.inl" />
+    <None Include="RtpsMessageTypesTypeSupportS.inl" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

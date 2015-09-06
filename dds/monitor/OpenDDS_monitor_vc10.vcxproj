@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>OpenDDS_monitor_vc10</ProjectName>
+    <ProjectGuid>{39A1695D-FECA-1BAD-E280-E1FB9B9880B3}</ProjectGuid>
+    <RootNamespace>OpenDDS_monitor_vc10</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v100</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v100</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Debug\OpenDDS_monitor_vc10\I386\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">OpenDDS_monitord</TargetName>
+    <LocalDebuggerCommandArguments Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"></LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)</LocalDebuggerWorkingDirectory>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Release\OpenDDS_monitor_vc10\I386\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">OpenDDS_monitor</TargetName>
+    <LocalDebuggerCommandArguments Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"></LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)</LocalDebuggerWorkingDirectory>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">..\..\lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Debug\OpenDDS_monitor_vc10\AMD64\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">OpenDDS_monitord</TargetName>
+    <LocalDebuggerCommandArguments Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)</LocalDebuggerWorkingDirectory>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">..\..\lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Release\OpenDDS_monitor_vc10\AMD64\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">OpenDDS_monitor</TargetName>
+    <LocalDebuggerCommandArguments Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)</LocalDebuggerWorkingDirectory>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(ACE_ROOT);$(TAO_ROOT);..\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>OPENDDS_MONITOR_BUILD_DLL;_DEBUG;WIN32;_WINDOWS;_CRT_NONSTDC_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;MPC_LIB_MODIFIER=&quot;d&quot;;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <ProgramDataBaseFileName>Debug\OpenDDS_monitor_vc10\I386\</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <DisableSpecificWarnings>4355;4250;4290;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>1033</Culture>
+      <AdditionalIncludeDirectories>$(ACE_ROOT);$(TAO_ROOT);..\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>ACEd.lib;TAOd.lib;TAO_AnyTypeCoded.lib;TAO_PortableServerd.lib;OpenDDS_Dcpsd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)OpenDDS_monitord.dll</OutputFile>
+      <AdditionalLibraryDirectories>.;$(ACE_ROOT)\lib;..\..\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ProgramDatabaseFile>$(OutDir)\OpenDDS_monitord_dll.pdb</ProgramDatabaseFile>
+      <ImportLibrary>..\..\lib\OpenDDS_monitord.lib</ImportLibrary>
+    </Link>
+<!-- "postclean" was made-up by MPC for use by vs_postclean.pl.
+     Check if msbuild has any support for a custom post-cleaning step
+ -->
+<!-- No known equivalent for DeploymentTool in vc10:
+-->
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>$(ACE_ROOT);$(TAO_ROOT);..\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>OPENDDS_MONITOR_BUILD_DLL;NDEBUG;WIN32;_WINDOWS;_CRT_NONSTDC_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <DisableSpecificWarnings>4355;4250;4290;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>1033</Culture>
+      <AdditionalIncludeDirectories>$(ACE_ROOT);$(TAO_ROOT);..\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>ACE.lib;TAO.lib;TAO_AnyTypeCode.lib;TAO_PortableServer.lib;OpenDDS_Dcps.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)OpenDDS_monitor.dll</OutputFile>
+      <AdditionalLibraryDirectories>.;$(ACE_ROOT)\lib;..\..\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <ImportLibrary>..\..\lib\OpenDDS_monitor.lib</ImportLibrary>
+    </Link>
+<!-- "postclean" was made-up by MPC for use by vs_postclean.pl.
+     Check if msbuild has any support for a custom post-cleaning step
+ -->
+<!-- No known equivalent for DeploymentTool in vc10:
+-->
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <TargetEnvironment>x64</TargetEnvironment>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(ACE_ROOT);$(TAO_ROOT);..\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>OPENDDS_MONITOR_BUILD_DLL;_DEBUG;WIN32;_WINDOWS;_CRT_NONSTDC_NO_WARNINGS;_AMD64_;_WIN64;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;MPC_LIB_MODIFIER=&quot;d&quot;;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <ProgramDataBaseFileName>Debug\OpenDDS_monitor_vc10\AMD64\</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <DisableSpecificWarnings>4355;4250;4290;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_WIN64;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>1033</Culture>
+      <AdditionalIncludeDirectories>$(ACE_ROOT);$(TAO_ROOT);..\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>ACEd.lib;TAOd.lib;TAO_AnyTypeCoded.lib;TAO_PortableServerd.lib;OpenDDS_Dcpsd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)OpenDDS_monitord.dll</OutputFile>
+      <AdditionalLibraryDirectories>.;$(ACE_ROOT)\lib;..\..\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ProgramDatabaseFile>$(OutDir)\OpenDDS_monitord_dll.pdb</ProgramDatabaseFile>
+      <ImportLibrary>..\..\lib\OpenDDS_monitord.lib</ImportLibrary>
+<!--
+  Though we can set TargetMachine explicitly, VC++
+  can figure it out by project type. We don't need
+  to set it by ourselves.
+-->
+<!--      <TargetMachine>0</TargetMachine>-->
+      <AdditionalOptions>/machine:AMD64 %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+<!-- "postclean" was made-up by MPC for use by vs_postclean.pl.
+     Check if msbuild has any support for a custom post-cleaning step
+ -->
+<!-- No known equivalent for DeploymentTool in vc10:
+-->
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <TargetEnvironment>x64</TargetEnvironment>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>$(ACE_ROOT);$(TAO_ROOT);..\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>OPENDDS_MONITOR_BUILD_DLL;NDEBUG;WIN32;_WINDOWS;_CRT_NONSTDC_NO_WARNINGS;_AMD64_;_WIN64;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <DisableSpecificWarnings>4355;4250;4290;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_WIN64;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>1033</Culture>
+      <AdditionalIncludeDirectories>$(ACE_ROOT);$(TAO_ROOT);..\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>ACE.lib;TAO.lib;TAO_AnyTypeCode.lib;TAO_PortableServer.lib;OpenDDS_Dcps.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)OpenDDS_monitor.dll</OutputFile>
+      <AdditionalLibraryDirectories>.;$(ACE_ROOT)\lib;..\..\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <ImportLibrary>..\..\lib\OpenDDS_monitor.lib</ImportLibrary>
+<!--
+  Though we can set TargetMachine explicitly, VC++
+  can figure it out by project type. We don't need
+  to set it by ourselves.
+-->
+<!--      <TargetMachine>0</TargetMachine>-->
+      <AdditionalOptions>/machine:AMD64 %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+<!-- "postclean" was made-up by MPC for use by vs_postclean.pl.
+     Check if msbuild has any support for a custom post-cleaning step
+ -->
+<!-- No known equivalent for DeploymentTool in vc10:
+-->
+  </ItemDefinitionGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DPMonitorImpl.cpp">
+    </ClCompile>
+    <ClCompile Include="DRMonitorImpl.cpp">
+    </ClCompile>
+    <ClCompile Include="DRPeriodicMonitorImpl.cpp">
+    </ClCompile>
+    <ClCompile Include="DWMonitorImpl.cpp">
+    </ClCompile>
+    <ClCompile Include="DWPeriodicMonitorImpl.cpp">
+    </ClCompile>
+    <ClCompile Include="monitorC.cpp">
+    </ClCompile>
+    <ClCompile Include="MonitorFactoryImpl.cpp">
+    </ClCompile>
+    <ClCompile Include="monitorS.cpp">
+    </ClCompile>
+    <ClCompile Include="monitorTypeSupportC.cpp">
+    </ClCompile>
+    <ClCompile Include="monitorTypeSupportImpl.cpp">
+    </ClCompile>
+    <ClCompile Include="monitorTypeSupportS.cpp">
+    </ClCompile>
+    <ClCompile Include="PublisherMonitorImpl.cpp">
+    </ClCompile>
+    <ClCompile Include="SPMonitorImpl.cpp">
+    </ClCompile>
+    <ClCompile Include="SubscriberMonitorImpl.cpp">
+    </ClCompile>
+    <ClCompile Include="TopicMonitorImpl.cpp">
+    </ClCompile>
+    <ClCompile Include="TransportMonitorImpl.cpp">
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DPMonitorImpl.h" />
+    <ClInclude Include="DRMonitorImpl.h" />
+    <ClInclude Include="DRPeriodicMonitorImpl.h" />
+    <ClInclude Include="DWMonitorImpl.h" />
+    <ClInclude Include="DWPeriodicMonitorImpl.h" />
+    <ClInclude Include="monitor_export.h" />
+    <ClInclude Include="monitorC.h" />
+    <ClInclude Include="MonitorFactoryImpl.h" />
+    <ClInclude Include="monitorS.h" />
+    <ClInclude Include="monitorTypeSupportC.h" />
+    <ClInclude Include="monitorTypeSupportImpl.h" />
+    <ClInclude Include="monitorTypeSupportS.h" />
+    <ClInclude Include="PublisherMonitorImpl.h" />
+    <ClInclude Include="SPMonitorImpl.h" />
+    <ClInclude Include="SubscriberMonitorImpl.h" />
+    <ClInclude Include="TopicMonitorImpl.h" />
+    <ClInclude Include="TransportMonitorImpl.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="monitor.mpc">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="monitorTypeSupport.idl">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Sa -St -I..\.. -Wb,export_macro=OpenDDS_monitor_Export -Wb,export_include=monitor_export.h &quot;monitorTypeSupport.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Invoking "$(ACE_ROOT)\bin\tao_idl on monitorTypeSupport.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">monitorTypeSupportC.cpp;monitorTypeSupportC.h;monitorTypeSupportC.inl;monitorTypeSupportS.cpp;monitorTypeSupportS.h;monitorTypeSupportS.inl</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ACE_ROOT)\bin\tao_idl.exe;$(ACE_ROOT)\lib\TAO_IDL_BEd.dll;$(ACE_ROOT)\lib\TAO_IDL_FEd.dll</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Sa -St -I..\.. -Wb,export_macro=OpenDDS_monitor_Export -Wb,export_include=monitor_export.h &quot;monitorTypeSupport.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Invoking "$(ACE_ROOT)\bin\tao_idl on monitorTypeSupport.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">monitorTypeSupportC.cpp;monitorTypeSupportC.h;monitorTypeSupportC.inl;monitorTypeSupportS.cpp;monitorTypeSupportS.h;monitorTypeSupportS.inl</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ACE_ROOT)\bin\tao_idl.exe;$(ACE_ROOT)\lib\TAO_IDL_BE.dll;$(ACE_ROOT)\lib\TAO_IDL_FE.dll</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Sa -St -I..\.. -Wb,export_macro=OpenDDS_monitor_Export -Wb,export_include=monitor_export.h &quot;monitorTypeSupport.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Invoking "$(ACE_ROOT)\bin\tao_idl on monitorTypeSupport.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">monitorTypeSupportC.cpp;monitorTypeSupportC.h;monitorTypeSupportC.inl;monitorTypeSupportS.cpp;monitorTypeSupportS.h;monitorTypeSupportS.inl</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ACE_ROOT)\bin\tao_idl.exe;$(ACE_ROOT)\lib\TAO_IDL_BEd.dll;$(ACE_ROOT)\lib\TAO_IDL_FEd.dll</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Sa -St -I..\.. -Wb,export_macro=OpenDDS_monitor_Export -Wb,export_include=monitor_export.h &quot;monitorTypeSupport.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Invoking "$(ACE_ROOT)\bin\tao_idl on monitorTypeSupport.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">monitorTypeSupportC.cpp;monitorTypeSupportC.h;monitorTypeSupportC.inl;monitorTypeSupportS.cpp;monitorTypeSupportS.h;monitorTypeSupportS.inl</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ACE_ROOT)\bin\tao_idl.exe;$(ACE_ROOT)\lib\TAO_IDL_BE.dll;$(ACE_ROOT)\lib\TAO_IDL_FE.dll</AdditionalInputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="monitor.idl">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Sa -St -I..\.. -Wb,export_macro=OpenDDS_monitor_Export -Wb,export_include=monitor_export.h &quot;monitor.idl&quot; &amp;&amp; ..\..\bin\opendds_idl -Wb,export_macro=OpenDDS_monitor_Export &quot;monitor.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Invoking "$(ACE_ROOT)\bin\tao_idl and ..\..\bin\opendds_idl on monitor.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">monitorC.cpp;monitorC.h;monitorC.inl;monitorS.cpp;monitorS.h;monitorS.inl;monitorTypeSupport.idl;monitorTypeSupportImpl.cpp;monitorTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ACE_ROOT)\bin\tao_idl.exe;..\..\bin\opendds_idl.exe;..\..\dds\idl\CPPTemplate.txt;..\..\dds\idl\HTemplate.txt;..\..\dds\idl\IDLTemplate.txt;$(ACE_ROOT)\lib\TAO_IDL_BEd.dll;$(ACE_ROOT)\lib\TAO_IDL_FEd.dll</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Sa -St -I..\.. -Wb,export_macro=OpenDDS_monitor_Export -Wb,export_include=monitor_export.h &quot;monitor.idl&quot; &amp;&amp; ..\..\bin\opendds_idl -Wb,export_macro=OpenDDS_monitor_Export &quot;monitor.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Invoking "$(ACE_ROOT)\bin\tao_idl and ..\..\bin\opendds_idl on monitor.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">monitorC.cpp;monitorC.h;monitorC.inl;monitorS.cpp;monitorS.h;monitorS.inl;monitorTypeSupport.idl;monitorTypeSupportImpl.cpp;monitorTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ACE_ROOT)\bin\tao_idl.exe;..\..\bin\opendds_idl.exe;..\..\dds\idl\CPPTemplate.txt;..\..\dds\idl\HTemplate.txt;..\..\dds\idl\IDLTemplate.txt;$(ACE_ROOT)\lib\TAO_IDL_BE.dll;$(ACE_ROOT)\lib\TAO_IDL_FE.dll</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Sa -St -I..\.. -Wb,export_macro=OpenDDS_monitor_Export -Wb,export_include=monitor_export.h &quot;monitor.idl&quot; &amp;&amp; ..\..\bin\opendds_idl -Wb,export_macro=OpenDDS_monitor_Export &quot;monitor.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Invoking "$(ACE_ROOT)\bin\tao_idl and ..\..\bin\opendds_idl on monitor.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">monitorC.cpp;monitorC.h;monitorC.inl;monitorS.cpp;monitorS.h;monitorS.inl;monitorTypeSupport.idl;monitorTypeSupportImpl.cpp;monitorTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ACE_ROOT)\bin\tao_idl.exe;..\..\bin\opendds_idl.exe;..\..\dds\idl\CPPTemplate.txt;..\..\dds\idl\HTemplate.txt;..\..\dds\idl\IDLTemplate.txt;$(ACE_ROOT)\lib\TAO_IDL_BEd.dll;$(ACE_ROOT)\lib\TAO_IDL_FEd.dll</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal&#x0D;&#x0A;PATH=%PATH%;$(ACE_ROOT)\lib;$(ACE_ROOT)\lib&#x0D;&#x0A;$(ACE_ROOT)\bin\tao_idl -Wb,pre_include=ace/pre.h -Wb,post_include=ace/post.h -I$(TAO_ROOT) -Sa -St -Sa -St -I..\.. -Wb,export_macro=OpenDDS_monitor_Export -Wb,export_include=monitor_export.h &quot;monitor.idl&quot; &amp;&amp; ..\..\bin\opendds_idl -Wb,export_macro=OpenDDS_monitor_Export &quot;monitor.idl&quot;&#x0D;&#x0A;endlocal</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Invoking "$(ACE_ROOT)\bin\tao_idl and ..\..\bin\opendds_idl on monitor.idl"</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">monitorC.cpp;monitorC.h;monitorC.inl;monitorS.cpp;monitorS.h;monitorS.inl;monitorTypeSupport.idl;monitorTypeSupportImpl.cpp;monitorTypeSupportImpl.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ACE_ROOT)\bin\tao_idl.exe;..\..\bin\opendds_idl.exe;..\..\dds\idl\CPPTemplate.txt;..\..\dds\idl\HTemplate.txt;..\..\dds\idl\IDLTemplate.txt;$(ACE_ROOT)\lib\TAO_IDL_BE.dll;$(ACE_ROOT)\lib\TAO_IDL_FE.dll</AdditionalInputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="monitorC.inl" />
+    <None Include="monitorS.inl" />
+    <None Include="monitorTypeSupportC.inl" />
+    <None Include="monitorTypeSupportS.inl" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="README">
+      <FileType>Document</FileType>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="monitor.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

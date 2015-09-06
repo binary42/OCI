@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B1F27843-FECA-1BAD-443A-726DF80C6174}</UniqueIdentifier>
+      <Extensions>cpp;cxx;cc;c;C</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{06319535-FECA-1BAD-443A-726DF80C6174}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hh</Extensions>
+    </Filter>
+    <Filter Include="Build Files">
+      <UniqueIdentifier>{A1909F1C-FECA-1BAD-443A-726DF80C6174}</UniqueIdentifier>
+      <Extensions>mpc;mpb;mwc</Extensions>
+    </Filter>
+    <Filter Include="Idl Files">
+      <UniqueIdentifier>{2990FA4C-FECA-1BAD-443A-726DF80C6174}</UniqueIdentifier>
+      <Extensions>idl</Extensions>
+    </Filter>
+    <Filter Include="Idl And Typesupport Files">
+      <UniqueIdentifier>{9E235CA7-FECA-1BAD-443A-726DF80C6174}</UniqueIdentifier>
+      <Extensions>idl</Extensions>
+    </Filter>
+    <Filter Include="Inline Files">
+      <UniqueIdentifier>{763028EF-FECA-1BAD-443A-726DF80C6174}</UniqueIdentifier>
+      <Extensions>i;ipp;inl</Extensions>
+    </Filter>
+    <Filter Include="Template Files">
+      <UniqueIdentifier>{5635C877-FECA-1BAD-443A-726DF80C6174}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FederatorC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FederatorConfig.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FederatorManagerImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FederatorManagerImpl_updates.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FederatorS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FederatorTypeSupportC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FederatorTypeSupportImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FederatorTypeSupportS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InfoRepoMulticastResponder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="federator_export.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FederatorC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FederatorConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FederatorManagerImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FederatorS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FederatorTypeSupportC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FederatorTypeSupportImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FederatorTypeSupportS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InfoRepoMulticastResponder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UpdateListener_T.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UpdateProcessor_T.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UpdateReceiver_T.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DCPSInfoRepo.mpc">
+      <Filter>Build Files</Filter>
+    </None>
+    <None Include="DCPSInfoRepo_bits.mpb">
+      <Filter>Build Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="FederatorTypeSupport.idl">
+      <Filter>Idl Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="Federator.idl">
+      <Filter>Idl And Typesupport Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="FederatorC.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="FederatorConfig.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="FederatorManagerImpl.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="FederatorS.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="FederatorTypeSupportC.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+    <None Include="FederatorTypeSupportS.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="UpdateListener_T.cpp">
+      <Filter>Template Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateProcessor_T.cpp">
+      <Filter>Template Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateReceiver_T.cpp">
+      <Filter>Template Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
